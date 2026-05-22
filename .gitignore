@@ -23,3 +23,6 @@ wrangler.toml.local
 
 # Node (not currently used, future-proofing)
 node_modules/
+
+# Claude Code project state
+.claude/

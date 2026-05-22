@@ -1,43 +1,68 @@
 # AG Law — website redesign
 
-Static site for **Alberto E. Guerra P.** (AG Law, Panama). Two languages, single page each, typographic minimal aesthetic. Spanish at `/`, English mirror at `/en/`.
+Static site for **Alberto E. Guerra P.** (AG Law, Panama). Five pages, two languages (ES default, EN coming), typographic minimal aesthetic with a portrait-driven hero.
 
 ## Status: preview mode
 
 Closed-loop UI review for the client. Wired to Cloudflare Pages — every push to `main` auto-deploys.
 
 - Preview URL: _paste your `aglaw-preview.pages.dev` URL here once CF Pages is connected_
-- `<meta name="robots" content="noindex, nofollow">` on both pages so the URL won't show up in Google.
-- The contact form is stripped — replaced with a WhatsApp CTA button under the address block.
-- No backend currently wired. The pieces are committed (`apps-script.gs`, `worker.js`, `.htaccess`) but inert until you flip back to production mode.
+- `<meta name="robots" content="noindex, nofollow">` on every page.
+- No contact form. The persistent WhatsApp CTA in the nav is the primary contact channel during preview.
+- Hero photo is a temporary import from the old WordPress site (`/img/alberto-temp.jpg`). Swap when professional headshots arrive.
+- Both languages built. hreflang chains validated, sitemap symmetric (10 URLs, 3 alternates each).
+
+## Site structure
+
+| Page | Spanish URL | English URL | Purpose |
+|---|---|---|---|
+| Home | `/` | `/en/` | Hero with portrait, intro, services teaser, contact section with Google Maps |
+| Practice | `/practica/` | `/en/practice/` | 6-area grid (Internacional, Comercial, Propiedad Industrial, Aduanero, Marítimo, Deportivo) |
+| Network | `/red/` | `/en/network/` | Corresponsales + Crespo & Ruiz alliance + history of the firm |
+| Resources | `/recursos/` | `/en/resources/` | FAQ-style legal resources (4 questions, FAQPage schema) |
+| About | `/perfil/` | `/en/about/` | Alberto's bio, WBC vice presidency, credentials |
+
+Nav across all pages: **Práctica · Red · Recursos · Perfil · [WhatsApp button] · [ES|EN]**
 
 ## File map
 
-| File | Purpose | Active now? |
-|---|---|---|
-| `index.html` | Spanish landing (default language) | yes |
-| `en/index.html` | English mirror | yes |
-| `sitemap.xml` | URL index with hreflang | yes (harmless under noindex) |
-| `robots.txt` | Crawler directives | yes |
-| `.htaccess`, `en/.htaccess` | Apache config for eventual GoDaddy deploy (security headers, HTTPS, gzip, 404 routing) | no — Cloudflare Pages ignores these |
-| `apps-script.gs` | Google Apps Script backend: form submissions → Google Sheet + email notification + 24-month retention | parked |
-| `worker.js` | Cloudflare Worker form proxy through `forms.ptytropicsadvisors.com/aglaw` so the Apps Script URL never appears in HTML | parked |
+```
+AG_law/
+├── index.html              Page 1 — Home (ES)
+├── practica/index.html     Page 2 — Práctica (ES)
+├── red/index.html          Page 3 — Red (ES)
+├── recursos/index.html     Page 4 — Recursos (ES)
+├── perfil/index.html       Page 5 — Perfil (ES)
+├── en/
+│   ├── index.html          Page 1 — Home (EN)
+│   ├── practice/index.html Page 2 — Practice (EN)
+│   ├── network/index.html  Page 3 — Network (EN)
+│   ├── resources/index.html Page 4 — Resources (EN)
+│   └── about/index.html    Page 5 — About (EN)
+├── styles.css              Shared stylesheet — single source of truth for all CSS
+├── img/alberto-temp.jpg    Temp hero portrait from WordPress site
+├── sitemap.xml             10 URLs, hreflang-symmetric
+├── robots.txt              Crawler directives (irrelevant under noindex but harmless)
+├── .htaccess               Apache config — parked until GoDaddy production
+├── apps-script.gs          Backend — parked, full setup docs in file header
+├── worker.js               Cloudflare Worker form proxy — parked, full setup docs in file header
+└── README.md               This file
+```
 
 ## Going to production
 
-When the design is approved and you're ready to deploy to GoDaddy for `albertoeguerrap.com`:
+When the design is approved and you're ready to deploy to GoDaddy:
 
-1. **Rebuild the contact form** in both `index.html` and `en/index.html`. It was stripped in the initial commit. The contract is documented in `apps-script.gs` — field names: `nombre`, `email`, `empresa`, `area`, `mensaje`, plus a hidden honeypot `website` and a `cf-turnstile-response` from the Turnstile widget. Submit posts to the Worker URL (`https://forms.ptytropicsadvisors.com/aglaw`).
-2. **Flip robots meta** in both HTML files from `noindex, nofollow` to `index, follow, max-snippet:-1, max-image-preview:large`.
-3. **Restore the production CSP** in both meta tags + `.htaccess`. Production CSP allows `https://challenges.cloudflare.com` (Turnstile) and `https://forms.ptytropicsadvisors.com` (form Worker).
-4. **Set up Apps Script** — follow the 10-step block at the top of `apps-script.gs`. ~10 min.
-5. **Set up the Cloudflare Worker proxy** — follow the 8-step block at the top of `worker.js`. ~5 min. The Worker holds the Apps Script URL as a secret env var.
-6. **Set up Cloudflare Turnstile** — get a sitekey + secret from the Cloudflare dashboard. Sitekey → both HTML forms. Secret → Apps Script config.
+1. **Add a contact form** to the Home page (or its own `/contacto/` page). The form contract is documented in `apps-script.gs`.
+2. **Flip robots meta** in all 5 (eventually 10) HTML files from `noindex, nofollow` to `index, follow, max-snippet:-1, max-image-preview:large`.
+3. **Restore the production CSP** to allow Turnstile + the Worker domain.
+4. **Set up the Apps Script backend** — instructions in `apps-script.gs` header.
+5. **Set up the Cloudflare Worker proxy** — instructions in `worker.js` header.
+6. **Set up Cloudflare Turnstile** — sitekey into the form, secret into Apps Script config.
 7. **Hand off to Jaime** for GoDaddy upload. Files for `public_html/`:
-   - `index.html`, `en/index.html`
-   - `.htaccess`, `en/.htaccess`
-   - `robots.txt`, `sitemap.xml`
-   - Skip: `apps-script.gs`, `worker.js` — those live on Google / Cloudflare, not on the web server.
+   - All HTML files (preserving subdirectory structure)
+   - `styles.css`, `img/`, `sitemap.xml`, `robots.txt`, `.htaccess`
+   - Skip: `apps-script.gs`, `worker.js` (those live on Google / Cloudflare)
 
 ## Production architecture (for reference)
 
@@ -52,7 +77,7 @@ Google Sheet                          submissions land here
                                       email fires to Alberto
 ```
 
-Worker, Apps Script, and Sheet are all under your account. The Apps Script URL never appears in HTML source — it's a secret env var inside the Worker.
+Worker, Apps Script, and Sheet are all under your account.
 
 ## Useful commands
 
@@ -65,9 +90,3 @@ git add .
 git commit -m "..."
 git push
 ```
-
-## Notes for future-me
-
-- The hero copy "Si cruza fronteras, lo resolvemos" / "If it crosses borders, we handle it" is the core positioning line — uses the informal "we" voice consistently across the site.
-- The contact form column is replaced with a WhatsApp CTA in preview mode. When restoring for production, the grid switches back to `1fr 1fr` (see the `.contact-layout` rule).
-- The `_archive/` convention for parked files wasn't used — backend files just live in the repo root with `parked` status in the file map above.
