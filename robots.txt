@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /.htaccess
+
+Sitemap: https://albertoeguerrap.com/sitemap.xml

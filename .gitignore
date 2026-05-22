@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editor noise
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local secrets — never commit, even when backend files get wired up later
+.env
+.env.local
+.dev.vars
+wrangler.toml.local
+
+# Node (not currently used, future-proofing)
+node_modules/

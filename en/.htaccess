@@ -1,0 +1,4 @@
+# Per-directory override for the English mirror.
+# Sends 404s under /en/ to the English homepage instead of the
+# Spanish one defined in the root .htaccess.
+ErrorDocument 404 /en/index.html
