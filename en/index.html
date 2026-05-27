@@ -9,7 +9,7 @@
 
 <title>Alberto Guerra | International Attorney in Panama</title>
 <meta name="description" content="Panama-based law firm with 38 years of international experience. International, commercial, maritime, sports, and industrial property law. Strategic alliance with Crespo & Ruiz, Madrid.">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 <link rel="canonical" href="https://albertoeguerrap.com/en/">
 
 <link rel="alternate" hreflang="es" href="https://albertoeguerrap.com/">
@@ -23,7 +23,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:locale:alternate" content="es_PA">
 
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; script-src 'self' 'unsafe-inline'; frame-src https://www.google.com;">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; script-src 'self' 'unsafe-inline' https://challenges.cloudflare.com; frame-src https://www.google.com https://challenges.cloudflare.com; connect-src 'self' https://forms.ptytropicsadvisors.com https://challenges.cloudflare.com; form-action 'self' https://forms.ptytropicsadvisors.com;">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -207,16 +207,132 @@
   </div>
 </section>
 
+<section class="contact-form-section" id="write" aria-labelledby="form-heading">
+  <div class="contact-form-layout">
+    <div class="contact-form-intro">
+      <h2 class="section-label">Write</h2>
+      <h3 class="contact-heading" id="form-heading">
+        Does your matter<br>
+        cross <em>borders</em>?
+      </h3>
+      <p class="form-lede">
+        Describe the case. We reply in under 48 business hours.
+      </p>
+    </div>
+
+    <form class="contact-form"
+          id="contact-form"
+          action="https://forms.ptytropicsadvisors.com/aglaw"
+          method="POST"
+          novalidate>
+
+      <!-- Honeypot: bots fill every field. Real users won't see this. -->
+      <div class="hp-field" aria-hidden="true">
+        <label for="website">Website (leave blank)</label>
+        <input type="text" id="website" name="website" autocomplete="off" tabindex="-1">
+      </div>
+
+      <div class="form-row">
+        <div class="form-field">
+          <label for="nombre">Full name <span class="req">*</span></label>
+          <input type="text" id="nombre" name="nombre" required maxlength="200" autocomplete="name">
+        </div>
+        <div class="form-field">
+          <label for="email">Email <span class="req">*</span></label>
+          <input type="email" id="email" name="email" required maxlength="200" autocomplete="email">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-field">
+          <label for="empresa">Company or organization</label>
+          <input type="text" id="empresa" name="empresa" maxlength="200" autocomplete="organization">
+        </div>
+        <div class="form-field">
+          <label for="area">Practice area</label>
+          <select id="area" name="area">
+            <option value="">— Select —</option>
+            <option>International Law</option>
+            <option>Commercial &amp; Corporate</option>
+            <option>Industrial Property</option>
+            <option>Customs Law</option>
+            <option>Maritime Law</option>
+            <option>Sports Law</option>
+            <option>Other</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-field">
+        <label for="mensaje">Describe the matter <span class="req">*</span></label>
+        <textarea id="mensaje" name="mensaje" required maxlength="5000" rows="5"
+                  placeholder="Jurisdictions involved, deadlines, amount if applicable…"></textarea>
+      </div>
+
+      <!-- Cloudflare Turnstile — invisible. Replace YOUR_TURNSTILE_SITEKEY when sitekey arrives. -->
+      <div class="cf-turnstile" data-sitekey="YOUR_TURNSTILE_SITEKEY" data-size="invisible"></div>
+
+      <div class="form-actions">
+        <button type="submit" class="btn-primary form-submit">Send message &rarr;</button>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </div>
+    </form>
+  </div>
+</section>
+
 </main>
 
 <footer role="contentinfo">
   <div class="footer-name">Alberto Guerra — Alberto E. Guerra P.</div>
-  <div class="footer-copy">&copy; 2025 · Panama City, Republic of Panama</div>
+  <div class="footer-copy">&copy; 2026 · Panama City, Republic of Panama</div>
   <div class="footer-right">
     APEDE &nbsp;·&nbsp; Panama Chamber of Commerce<br>
     World Boxing Council — Vice Presidency
   </div>
 </footer>
+
+<!-- Cloudflare Turnstile loader (deferred, non-blocking) -->
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
+<!-- Form submit handler -->
+<script>
+(function() {
+  const form = document.getElementById('contact-form');
+  if (!form) return;
+  const status     = form.querySelector('.form-status');
+  const submitBtn  = form.querySelector('.form-submit');
+  const submitText = submitBtn.innerHTML;
+
+  form.addEventListener('submit', async function(e) {
+    e.preventDefault();
+    submitBtn.disabled    = true;
+    submitBtn.textContent = 'Sending…';
+    status.textContent    = '';
+    status.className      = 'form-status';
+
+    try {
+      const res  = await fetch(form.action, { method: 'POST', body: new FormData(form) });
+      const data = await res.json();
+
+      if (data.ok) {
+        form.reset();
+        status.className   = 'form-status form-status-ok';
+        status.textContent = 'Message received. We will reply in under 48 business hours.';
+        if (window.turnstile) window.turnstile.reset();
+      } else {
+        throw new Error(data.error || 'unknown');
+      }
+    } catch (err) {
+      status.className   = 'form-status form-status-err';
+      status.textContent = 'We could not send your message. Please write us on WhatsApp.';
+      console.error('form error:', err);
+    } finally {
+      submitBtn.disabled  = false;
+      submitBtn.innerHTML = submitText;
+    }
+  });
+})();
+</script>
 
 </body>
 </html>

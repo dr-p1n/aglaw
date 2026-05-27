@@ -5,7 +5,7 @@
   <!-- ── Spanish ── -->
   <url>
     <loc>https://albertoeguerrap.com/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="es"        href="https://albertoeguerrap.com/"/>
@@ -15,7 +15,7 @@
 
   <url>
     <loc>https://albertoeguerrap.com/practica/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="es"        href="https://albertoeguerrap.com/practica/"/>
@@ -25,7 +25,7 @@
 
   <url>
     <loc>https://albertoeguerrap.com/red/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es"        href="https://albertoeguerrap.com/red/"/>
@@ -35,7 +35,7 @@
 
   <url>
     <loc>https://albertoeguerrap.com/recursos/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="es"        href="https://albertoeguerrap.com/recursos/"/>
@@ -45,7 +45,7 @@
 
   <url>
     <loc>https://albertoeguerrap.com/perfil/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="es"        href="https://albertoeguerrap.com/perfil/"/>
@@ -56,7 +56,7 @@
   <!-- ── English ── -->
   <url>
     <loc>https://albertoeguerrap.com/en/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="es"        href="https://albertoeguerrap.com/"/>
@@ -66,7 +66,7 @@
 
   <url>
     <loc>https://albertoeguerrap.com/en/practice/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es"        href="https://albertoeguerrap.com/practica/"/>
@@ -76,7 +76,7 @@
 
   <url>
     <loc>https://albertoeguerrap.com/en/network/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="es"        href="https://albertoeguerrap.com/red/"/>
@@ -86,7 +86,7 @@
 
   <url>
     <loc>https://albertoeguerrap.com/en/resources/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="es"        href="https://albertoeguerrap.com/recursos/"/>
@@ -96,7 +96,7 @@
 
   <url>
     <loc>https://albertoeguerrap.com/en/about/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="es"        href="https://albertoeguerrap.com/perfil/"/>
