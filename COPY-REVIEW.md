@@ -15,7 +15,7 @@ Every visible string on every page, in source order. Headings preserved.
 Abogado Internacional · Panamá · Desde 1987
 
 
-### 39 años en la *intersección* / de cultura, instituciones gubernamentales / y comercio internacional.
+### 39 años en la *intersección* / de cultura, gobierno / y comercio internacional.
 
 Alberto E. Guerra P. — 39 años asesorando empresas, atletas e instituciones en asuntos legales con una red internacional de corresponsales.
 
