@@ -15,9 +15,9 @@ Every visible string on every page, in source order. Headings preserved.
 Abogado Internacional · Panamá · Desde 1987
 
 
-### Si cruza / fronteras, / lo *resolvemos*.
+### 39 años en la *intersección* / de cultura, instituciones gubernamentales / y comercio internacional.
 
-Alberto E. Guerra P. — 38 años asesorando empresas, atletas e instituciones en asuntos legales que no caben en un solo país.
+Alberto E. Guerra P. — 39 años asesorando empresas, atletas e instituciones en asuntos legales con una red internacional de corresponsales.
 
 `[CTA: Reservar consulta →]`
 
@@ -44,7 +44,7 @@ Fundado en 1987 en la Ciudad de Panamá. Práctica concentrada en asuntos transf
 - Derecho Deportivo
 `[CTA: Ver áreas de práctica →]`
 
-> **38** años de trayectoria internacional desde 1987
+> **39** años de trayectoria internacional desde 1987
 
 
 #### Contacto
@@ -80,12 +80,12 @@ Describa el caso. Le respondemos en menos de 48 horas hábiles.
 
 #### Seis ramas. / Una *jurisdicción*.
 
-El bufete concentra su práctica en asuntos donde el derecho cruza fronteras. Cada rama opera con corresponsales activos en al menos tres jurisdicciones más.
+La firma concentra su práctica en asuntos donde el derecho cruza fronteras. Cada rama opera con corresponsales activos en al menos tres jurisdicciones más.
 
 
 ##### 01 · Derecho Internacional
 
-Contratos, tratados y transacciones que no conocen fronteras. Desde la constitución hasta el arbitraje.
+Contratos, tratados y transacciones que cruzan fronteras. Desde la constitución hasta el arbitraje.
 
 
 ##### 02 · Derecho Comercial y Corporativo
@@ -105,7 +105,7 @@ Operaciones de comercio exterior sin sobresaltos. Apelaciones, clasificación ar
 
 ##### 05 · Derecho Marítimo
 
-El Canal es nuestro patio. Registro de naves, contratos navales y disputas marítimas desde el centro logístico del continente.
+El Canal es nuestro patio. Registro de naves, contratos navales y disputas marítimas desde el centro logístico del continente. Asesoramos todos los puertos y zonas francas del país.
 
 
 ##### 06 · Derecho Deportivo Internacional
@@ -144,13 +144,6 @@ Corresponsales activos en las regiones más relevantes para el comercio, la inve
 ##### Crespo & Ruiz — Madrid, España
 
 Alianza estratégica con firma española líder en derecho corporativo e internacional. Capacidad de representación en Europa y ante organismos multilaterales para clientes que operan en ambas orillas del Atlántico.
-
-
-##### Historia / del *bufete*.
-
-«ALBERTO E. GUERRA P. LAW OFFICE» fue establecida en la República de Panamá en 1987. Hasta 2020 operó adjunta a la firma GUERRA, SIERRA & ATIE; desde entonces ejerce de forma independiente, conservando la red de corresponsales internacionales construida a lo largo de tres décadas.
-
-En 2020 el bufete creó el **Departamento Internacional de Negocios Deportivos** en alianza con la oficina española Crespo & Ruiz. Es la única unidad del país especializada en derecho deportivo internacional con representación directa ante organismos como la WBC, FIFA y el Comité Olímpico.
 
 
 **Footer:**  Alberto Guerra — Alberto E. Guerra P.  ·  © 2026 · Ciudad de Panamá, República de Panamá  ·  APEDE · Cámara de Comercio de Panamá  ·  Consejo Mundial de Boxeo — Vicepresidencia
@@ -334,16 +327,18 @@ Si usted tiene un asunto que involucra a España y a Panamá — societario, fis
 El Abogado
 
 
-#### 38 años donde / el derecho cruza / *fronteras*.
+#### 39 años navegando / el mundo *comercial* / y asesorando desde / diferentes jurisdicciones.
 
 Alberto E. Guerra P. — abogado panameño en ejercicio desde 1987. Especialista en derecho internacional, marítimo y deportivo.
 
 Una carrera construida
 en seis *jurisdicciones*.
 
-El Lic. Alberto E. Guerra P. ejerce desde 1987. Comenzó en GUERRA, SIERRA & ATIE y desde 2020 dirige su propio bufete. Su práctica cubre seis jurisdicciones con corresponsales activos en toda la región.
+El Lic. Alberto E. Guerra P. ejerce desde 1987. Su carrera comenzó en GUERRA, SIERRA & ATIE. Desde 2020 dirige su propio bufete. Su práctica cubre seis jurisdicciones con corresponsales activos en toda la región.
 
 Docente universitario de Derecho Civil y Deportivo. Miembro de APEDE y la Cámara de Comercio e Industria de Panamá.
+
+En 2020 el bufete creó el **Departamento Internacional de Negocios Deportivos** en alianza con la oficina española Crespo & Ruiz. Es la única unidad del país especializada en derecho deportivo internacional con representación directa ante organismos como la WBC, FIFA y el Comité Olímpico.
 
 
 ##### Formación académica
