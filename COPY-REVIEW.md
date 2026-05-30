@@ -15,7 +15,7 @@ Every visible string on every page, in source order. Headings preserved.
 Abogado Internacional · Panamá · Desde 1987
 
 
-### Perspectiva global. / Criterio *panameño*.
+### Criterio *experto*. / Perspectiva global. / Red mundial.
 
 Alberto E. Guerra P. — 39 años asesorando empresas, atletas e instituciones en asuntos legales con una red internacional de corresponsales.
 
@@ -380,7 +380,7 @@ Investigación Histórica Bilateral
 International Attorney · Panama · Since 1987
 
 
-### If it crosses / borders, / we *handle it*.
+### Expert *counsel*. / Global perspective. / Worldwide network.
 
 Alberto E. Guerra P. — 38 years advising businesses, athletes, and institutions on legal matters that don't fit inside one country.
 

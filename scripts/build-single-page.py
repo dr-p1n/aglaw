@@ -24,7 +24,7 @@ DIST.mkdir(exist_ok=True)
 # ─── Inputs ──────────────────────────────────────────────────────────
 CSS = (ROOT / 'styles.css').read_text()
 PHOTO_URI = 'data:image/jpeg;base64,' + base64.b64encode(
-    (ROOT / 'img/alberto-temp.jpg').read_bytes()
+    (ROOT / 'img/alberto.jpg').read_bytes()
 ).decode()
 
 
@@ -93,7 +93,7 @@ contact_section = get_section_by_class(home_main, 'contact')
 form_section    = get_section_by_class(home_main, 'contact-form-section')
 
 # Swap in base64 photo
-hero_section = hero_section.replace('/img/alberto-temp.jpg', PHOTO_URI)
+hero_section = hero_section.replace('/img/alberto.jpg', PHOTO_URI)
 
 # Sub-page <main> blocks wrapped with anchor ids for nav targets
 def wrap_with_anchor(html, anchor_id):
