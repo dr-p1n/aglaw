@@ -219,21 +219,66 @@ El nearshoring hacia Panamá está creciendo — y la mayoría de las empresas l
 ##### Blog mensual
 
 
-###### Guía completa: cómo constituir una empresa en Panamá
+###### Cómo funciona la alianza Panamá–España en casos legales transfronterizos
 
-Cada semana recibo consultas de empresarios que ya constituyeron su sociedad en Panamá — y lo hicieron mal.
+Cuando un caso cruza el Atlántico, lo que más importa no es conocer la ley de dos países. Es saber a quién llamar en el otro lado.
 
-No mal en el sentido de ilegal. Mal en el sentido de irrelevante. Una sociedad anónima constituida sin propósito claro, sin cuenta bancaria activa, sin estructura que resista una auditoría internacional, es papel con sello notarial. Nada más.
+Mi alianza con Crespo & Ruiz en Madrid no es un acuerdo de referidos. Es una relación de trabajo construida sobre casos reales — litigios comerciales, procesos de reconocimiento de sentencias, operaciones societarias que involucran entidades en ambas jurisdicciones, y clientes que viven en un país y operan en el otro.
 
-Panamá tiene una de las legislaciones corporativas más flexibles del mundo. Eso es una ventaja para quien sabe usarla y una trampa para quien la usa por moda. He visto empresarios latinoamericanos, europeos, norteamericanos — todos con la misma ilusión de que constituir en Panamá equivale automáticamente a protección patrimonial o eficiencia fiscal. No funciona así.
+España y Panamá tienen una relación jurídica particular. El Convenio entre ambos países para evitar la doble imposición es uno de los más relevantes para empresarios que operan en ambos mercados. La presencia histórica de capital español en Panamá — en banca, construcción, telecomunicaciones — ha generado décadas de jurisprudencia en casos transfronterizos que muy pocos bufetes locales conocen a fondo.
 
-Lo primero que analizo con cada cliente es el propósito real de la estructura. ¿Es para operar localmente? ¿Para recibir pagos internacionales? ¿Para proteger activos? ¿Para articular una holding? Cada respuesta lleva a una arquitectura diferente. La sociedad anónima es el vehículo más común, pero no siempre es el correcto.
+Lo que resuelve la alianza es el problema de la ejecución. Ganar un arbitraje en Panamá contra una contraparte española no sirve de mucho si nadie en Madrid puede ejecutar la sentencia. Y viceversa. La coordinación entre jurisdicciones — tanto en estrategia procesal como en timing de las acciones — es lo que determina si un caso transfronterizo termina bien o se extiende indefinidamente.
 
-Lo segundo es la cuenta bancaria. Panamá endureció sus estándares de cumplimiento bancario en los últimos años — con razón. Abrir una cuenta para una sociedad recién constituida requiere documentación de origen de fondos, actividad económica demostrable, y en muchos casos una relación previa con la institución. El que le promete una cuenta en dos semanas probablemente no le está diciendo todo.
+He gestionado casos donde el cliente estaba en Madrid, el activo en Panamá, y la contraparte en un tercer país. Esos casos no se gestionan con una llamada a un corresponsal. Se gestionan con un equipo que ya tiene práctica de trabajar junto, que habla el mismo lenguaje jurídico, y que entiende los tiempos y las lógicas de cada sistema.
 
-Lo tercero es el mantenimiento. Una sociedad que no paga sus tasas anuales al Registro Público, que no tiene agente residente activo, que no actualiza a sus directores y dignatarios, acumula riesgos silenciosamente. He recibido casos donde el problema no era la transacción — era que la sociedad llevaba tres años técnicamente en mora.
+Si usted tiene un asunto que involucra a España y a Panamá — societario, fiscal, litigioso, o de propiedad intelectual — esa es exactamente la combinación para la que existe esta alianza.
 
-Constituir en Panamá es una decisión que se toma con información, no con urgencia. Si usted ya tiene una sociedad y no está seguro de que funcione como debería, ese es el punto de partida.
+
+###### Registro de marcas y patentes en Panamá — proceso paso a paso
+
+La DIGERPI procesa miles de solicitudes al año. La mayoría llegan con errores. Muchas llegan demasiado tarde.
+
+Tarde en el sentido de que alguien ya registró primero. En Panamá — como en la mayoría de sistemas de propiedad industrial — el principio es primero en tiempo, primero en derecho. No importa que usted haya usado ese nombre de marca durante años. Si otra persona lo registró antes, tiene que demostrar uso previo en un proceso de impugnación. Y eso consume tiempo, dinero, y energía que ningún empresario quiere gastar.
+
+La búsqueda de anterioridad no es opcional. Es el primer paso. Antes de invertir en diseño de marca, antes de imprimir materiales, antes de lanzar, hay que verificar que el activo que quiere proteger está disponible. He visto empresas que construyeron su identidad visual completa sobre una marca que ya estaba registrada.
+
+El proceso ante la DIGERPI tiene etapas claras: solicitud, examen de forma, publicación en Gaceta Oficial por tres meses, período de oposición, y resolución final. Los plazos reales — no los plazos teóricos — oscilan entre ocho y dieciocho meses según la complejidad y si hay terceros que se oponen.
+
+Para patentes el proceso es más largo y técnicamente más exigente. El examen de novedad, actividad inventiva, y aplicación industrial requiere documentación precisa. Un error en la descripción de la reivindicación puede limitar el alcance de la protección de forma permanente.
+
+Lo que me preguntan frecuentemente es si vale la pena registrar en Panamá si el negocio opera principalmente en el exterior. Mi respuesta es siempre la misma: si tiene operaciones o clientes en Panamá, o si planea tenerlos, el registro local es el punto de partida. La protección internacional viene después, y Panamá es parte del sistema de Madrid para marcas — lo que facilita la expansión.
+
+
+###### Derecho deportivo en Latinoamérica: contratos, promotores y derechos de imagen en el boxeo
+
+En el boxeo, el contrato más importante que un atleta firma no es con su promotor. Es el que firma con su propia imagen.
+
+Lo digo después de años trabajando con atletas latinoamericanos que llegaron a consulta cuando el daño ya estaba hecho — contratos que cedían derechos de nombre, apodo, y likeness de forma amplia e indefinida, sin contraprestación proporcional, sin cláusula de reversión.
+
+El derecho deportivo en América Latina es joven. Las ligas y organismos — WBC, WBA, WBO, IBF en el caso del boxeo — operan bajo sus propios reglamentos, que no siempre coinciden con la legislación del país donde el atleta vive o compite. Esa brecha es donde ocurren los problemas.
+
+Un promotor puede tener derechos contractuales sobre las peleas de un boxeador sin tener derechos sobre su imagen comercial. O puede tenerlos, si el contrato fue mal negociado. La diferencia entre esos dos escenarios puede ser la diferencia entre construir una marca personal de largo plazo y firmar esa marca a terceros por una década.
+
+He visto casos donde el boxeador ganó el campeonato y perdió los derechos sobre su propia historia. Su nombre en productos, su imagen en transmisiones, sus apariciones comerciales — todo cedido en cláusulas que nadie explicó claramente antes de firmar.
+
+Lo que el atleta necesita entender es que sus derechos de imagen son un activo independiente de su rendimiento deportivo. Ese activo tiene valor antes de la primera pelea de título, durante el pico de su carrera, y después del retiro. Protegerlo requiere asesoría antes del contrato — no durante el litigio.
+
+
+###### Contratos comerciales internacionales — lo que todo empresario debe saber
+
+El contrato más peligroso que he visto en treinta y nueve años de práctica no tenía errores de redacción. No tenía cláusula de resolución de disputas.
+
+Esa ausencia costó dos años de litigio en tres jurisdicciones distintas.
+
+Los contratos comerciales internacionales tienen una lógica diferente a los contratos locales. No basta con acordar precio, plazo y condiciones de entrega. La pregunta central que todo contrato internacional debe responder es: ¿qué pasa cuando algo sale mal, dónde lo resolvemos, y bajo qué ley?
+
+He redactado y revisado contratos entre empresas panameñas y contrapartes en Europa, Asia, y América del Norte. El error más frecuente no es técnico — es que las partes negocian el negocio y dejan el contrato para el final, como si fuera un trámite. El contrato no es el trámite. El contrato es el negocio.
+
+La ley aplicable define qué normas rigen en caso de disputa. La jurisdicción o sede arbitral define dónde se resuelve. La cláusula de fuerza mayor — que nadie lee hasta que la necesita — define qué eventos liberan a las partes de sus obligaciones. Y la cláusula de confidencialidad, que muchos reducen a boilerplate, puede ser la diferencia entre proteger información estratégica y perderla.
+
+Cuando trabajo con un cliente en un contrato internacional, el objetivo no es solo que el documento sea legalmente correcto. El objetivo es que sea ejecutable — que si mañana hay un problema, el contrato le dé una posición ventajosa, no una posición de paridad con quien le incumplió.
+
+Eso requiere pensar en el peor escenario antes de firmar. No después.
 
 
 ###### El pabellón panameño: por qué Panamá domina la marina mercante global
@@ -253,66 +298,21 @@ Lo que muchos armadores no anticipan son las obligaciones posteriores al registr
 El pabellón panameño es un activo. Como cualquier activo, requiere gestión.
 
 
-###### Contratos comerciales internacionales — lo que todo empresario debe saber
+###### Guía completa: cómo constituir una empresa en Panamá
 
-El contrato más peligroso que he visto en treinta y ocho años de práctica no tenía errores de redacción. No tenía cláusula de resolución de disputas.
+Cada semana recibo consultas de empresarios que ya constituyeron su sociedad en Panamá — y lo hicieron mal.
 
-Esa ausencia costó dos años de litigio en tres jurisdicciones distintas.
+No mal en el sentido de ilegal. Mal en el sentido de irrelevante. Una sociedad anónima constituida sin propósito claro, sin cuenta bancaria activa, sin estructura que resista una auditoría internacional, es papel con sello notarial. Nada más.
 
-Los contratos comerciales internacionales tienen una lógica diferente a los contratos locales. No basta con acordar precio, plazo y condiciones de entrega. La pregunta central que todo contrato internacional debe responder es: ¿qué pasa cuando algo sale mal, dónde lo resolvemos, y bajo qué ley?
+Panamá tiene una de las legislaciones corporativas más flexibles del mundo. Eso es una ventaja para quien sabe usarla y una trampa para quien la usa por moda. He visto empresarios latinoamericanos, europeos, norteamericanos — todos con la misma ilusión de que constituir en Panamá equivale automáticamente a protección patrimonial o eficiencia fiscal. No funciona así.
 
-He redactado y revisado contratos entre empresas panameñas y contrapartes en Europa, Asia, y América del Norte. El error más frecuente no es técnico — es que las partes negocian el negocio y dejan el contrato para el final, como si fuera un trámite. El contrato no es el trámite. El contrato es el negocio.
+Lo primero que analizo con cada cliente es el propósito real de la estructura. ¿Es para operar localmente? ¿Para recibir pagos internacionales? ¿Para proteger activos? ¿Para articular una holding? Cada respuesta lleva a una arquitectura diferente. La sociedad anónima es el vehículo más común, pero no siempre es el correcto.
 
-La ley aplicable define qué normas rigen en caso de disputa. La jurisdicción o sede arbitral define dónde se resuelve. La cláusula de fuerza mayor — que nadie lee hasta que la necesita — define qué eventos liberan a las partes de sus obligaciones. Y la cláusula de confidencialidad, que muchos reducen a boilerplate, puede ser la diferencia entre proteger información estratégica y perderla.
+Lo segundo es la cuenta bancaria. Panamá endureció sus estándares de cumplimiento bancario en los últimos años — con razón. Abrir una cuenta para una sociedad recién constituida requiere documentación de origen de fondos, actividad económica demostrable, y en muchos casos una relación previa con la institución. El que le promete una cuenta en dos semanas probablemente no le está diciendo todo.
 
-Cuando trabajo con un cliente en un contrato internacional, el objetivo no es solo que el documento sea legalmente correcto. El objetivo es que sea ejecutable — que si mañana hay un problema, el contrato le dé una posición ventajosa, no una posición de paridad con quien le incumplió.
+Lo tercero es el mantenimiento. Una sociedad que no paga sus tasas anuales al Registro Público, que no tiene agente residente activo, que no actualiza a sus directores y dignatarios, acumula riesgos silenciosamente. He recibido casos donde el problema no era la transacción — era que la sociedad llevaba tres años técnicamente en mora.
 
-Eso requiere pensar en el peor escenario antes de firmar. No después.
-
-
-###### Derecho deportivo en Latinoamérica: contratos, promotores y derechos de imagen en el boxeo
-
-En el boxeo, el contrato más importante que un atleta firma no es con su promotor. Es el que firma con su propia imagen.
-
-Lo digo después de años trabajando con atletas latinoamericanos que llegaron a consulta cuando el daño ya estaba hecho — contratos que cedían derechos de nombre, apodo, y likeness de forma amplia e indefinida, sin contraprestación proporcional, sin cláusula de reversión.
-
-El derecho deportivo en América Latina es joven. Las ligas y organismos — WBC, WBA, WBO, IBF en el caso del boxeo — operan bajo sus propios reglamentos, que no siempre coinciden con la legislación del país donde el atleta vive o compite. Esa brecha es donde ocurren los problemas.
-
-Un promotor puede tener derechos contractuales sobre las peleas de un boxeador sin tener derechos sobre su imagen comercial. O puede tenerlos, si el contrato fue mal negociado. La diferencia entre esos dos escenarios puede ser la diferencia entre construir una marca personal de largo plazo y firmar esa marca a terceros por una década.
-
-He visto casos donde el boxeador ganó el campeonato y perdió los derechos sobre su propia historia. Su nombre en productos, su imagen en transmisiones, sus apariciones comerciales — todo cedido en cláusulas que nadie explicó claramente antes de firmar.
-
-Lo que el atleta necesita entender es que sus derechos de imagen son un activo independiente de su rendimiento deportivo. Ese activo tiene valor antes de la primera pelea de título, durante el pico de su carrera, y después del retiro. Protegerlo requiere asesoría antes del contrato — no durante el litigio.
-
-
-###### Registro de marcas y patentes en Panamá — proceso paso a paso
-
-La DIGERPI procesa miles de solicitudes al año. La mayoría llegan con errores. Muchas llegan demasiado tarde.
-
-Tarde en el sentido de que alguien ya registró primero. En Panamá — como en la mayoría de sistemas de propiedad industrial — el principio es primero en tiempo, primero en derecho. No importa que usted haya usado ese nombre de marca durante años. Si otra persona lo registró antes, tiene que demostrar uso previo en un proceso de impugnación. Y eso consume tiempo, dinero, y energía que ningún empresario quiere gastar.
-
-La búsqueda de anterioridad no es opcional. Es el primer paso. Antes de invertir en diseño de marca, antes de imprimir materiales, antes de lanzar, hay que verificar que el activo que quiere proteger está disponible. He visto empresas que construyeron su identidad visual completa sobre una marca que ya estaba registrada.
-
-El proceso ante la DIGERPI tiene etapas claras: solicitud, examen de forma, publicación en Gaceta Oficial por tres meses, período de oposición, y resolución final. Los plazos reales — no los plazos teóricos — oscilan entre ocho y dieciocho meses según la complejidad y si hay terceros que se oponen.
-
-Para patentes el proceso es más largo y técnicamente más exigente. El examen de novedad, actividad inventiva, y aplicación industrial requiere documentación precisa. Un error en la descripción de la reivindicación puede limitar el alcance de la protección de forma permanente.
-
-Lo que me preguntan frecuentemente es si vale la pena registrar en Panamá si el negocio opera principalmente en el exterior. Mi respuesta es siempre la misma: si tiene operaciones o clientes en Panamá, o si planea tenerlos, el registro local es el punto de partida. La protección internacional viene después, y Panamá es parte del sistema de Madrid para marcas — lo que facilita la expansión.
-
-
-###### Cómo funciona la alianza Panamá–España en casos legales transfronterizos
-
-Cuando un caso cruza el Atlántico, lo que más importa no es conocer la ley de dos países. Es saber a quién llamar en el otro lado.
-
-Mi alianza con Crespo & Ruiz en Madrid no es un acuerdo de referidos. Es una relación de trabajo construida sobre casos reales — litigios comerciales, procesos de reconocimiento de sentencias, operaciones societarias que involucran entidades en ambas jurisdicciones, y clientes que viven en un país y operan en el otro.
-
-España y Panamá tienen una relación jurídica particular. El Convenio entre ambos países para evitar la doble imposición es uno de los más relevantes para empresarios que operan en ambos mercados. La presencia histórica de capital español en Panamá — en banca, construcción, telecomunicaciones — ha generado décadas de jurisprudencia en casos transfronterizos que muy pocos bufetes locales conocen a fondo.
-
-Lo que resuelve la alianza es el problema de la ejecución. Ganar un arbitraje en Panamá contra una contraparte española no sirve de mucho si nadie en Madrid puede ejecutar la sentencia. Y viceversa. La coordinación entre jurisdicciones — tanto en estrategia procesal como en timing de las acciones — es lo que determina si un caso transfronterizo termina bien o se extiende indefinidamente.
-
-He gestionado casos donde el cliente estaba en Madrid, el activo en Panamá, y la contraparte en un tercer país. Esos casos no se gestionan con una llamada a un corresponsal. Se gestionan con un equipo que ya tiene práctica de trabajar junto, que habla el mismo lenguaje jurídico, y que entiende los tiempos y las lógicas de cada sistema.
-
-Si usted tiene un asunto que involucra a España y a Panamá — societario, fiscal, litigioso, o de propiedad intelectual — esa es exactamente la combinación para la que existe esta alianza.
+Constituir en Panamá es una decisión que se toma con información, no con urgencia. Si usted ya tiene una sociedad y no está seguro de que funcione como debería, ese es el punto de partida.
 
 
 **Footer:**  Alberto Guerra — Alberto E. Guerra P.  ·  © 2026 · Ciudad de Panamá, República de Panamá  ·  APEDE · Cámara de Comercio de Panamá  ·  Consejo Mundial de Boxeo — Vicepresidencia
@@ -591,21 +591,66 @@ Nearshoring into Panama is growing — and most companies arrive with the wrong 
 ##### Monthly Blog
 
 
-###### The Complete Guide to Incorporating a Company in Panama
+###### How the Panama–Spain Legal Alliance Works in Cross-Border Cases
 
-Every week I receive calls from business owners who have already incorporated in Panama — and did it wrong.
+When a case crosses the Atlantic, what matters most isn't knowing the law in two countries. It's knowing who to call on the other side.
 
-Not wrong in the legal sense. Wrong in the sense of irrelevant. A corporation formed without a clear purpose, without an active bank account, without a structure that can withstand international scrutiny, is paper with a notarial seal. Nothing more.
+My alliance with Crespo & Ruiz in Madrid isn't a referral agreement. It's a working relationship built on real cases — commercial litigation, judgment recognition proceedings, corporate transactions involving entities in both jurisdictions, and clients who live in one country and operate in the other.
 
-Panama has one of the most flexible corporate frameworks in the world. That's an advantage for those who know how to use it and a trap for those who follow trends. I've seen Latin American, European, and North American entrepreneurs — all sharing the same illusion that incorporating in Panama automatically means asset protection or tax efficiency. It doesn't work that way.
+Spain and Panama have a particular legal relationship. The tax treaty between both countries is one of the most relevant for business owners operating in both markets. The historical presence of Spanish capital in Panama — in banking, construction, telecommunications — has generated decades of cross-border case law that very few local firms know in depth.
 
-The first thing I analyze with every client is the real purpose of the structure. Is it to operate locally? To receive international payments? To protect assets? To build a holding structure? Each answer leads to a different architecture. The corporation is the most common vehicle, but it's not always the right one.
+What the alliance resolves is the enforcement problem. Winning an arbitration in Panama against a Spanish counterpart isn't worth much if no one in Madrid can enforce the judgment. And vice versa. Coordination between jurisdictions — both in procedural strategy and timing of actions — is what determines whether a cross-border case ends well or extends indefinitely.
 
-The second issue is the bank account. Panama has tightened its banking compliance standards significantly in recent years — for good reason. Opening an account for a newly incorporated company requires source-of-funds documentation, demonstrable economic activity, and in many cases a prior relationship with the institution. Anyone promising you an account in two weeks probably isn't telling you everything.
+I've managed cases where the client was in Madrid, the asset was in Panama, and the counterparty was in a third country. Those cases are not managed with a call to a correspondent firm. They're managed with a team that already has practice working together, that speaks the same legal language, and that understands the timelines and logic of each system.
 
-The third issue is maintenance. A company that doesn't pay its annual fees to the Public Registry, that doesn't have an active registered agent, that doesn't update its directors and officers, accumulates risk silently. I've received cases where the problem wasn't the transaction — it was that the company had technically been in arrears for three years.
+If you have a matter involving Spain and Panama — corporate, tax, litigation, or intellectual property — that's exactly the combination this alliance exists for.
 
-Incorporating in Panama is a decision made with information, not with urgency. If you already have a corporation and you're not sure it's working the way it should, that's the starting point.
+
+###### Trademark and Patent Registration in Panama — Step by Step
+
+DIGERPI processes thousands of applications each year. Most arrive with errors. Many arrive too late.
+
+Too late in the sense that someone already registered first. In Panama — as in most industrial property systems — the principle is first in time, first in right. It doesn't matter that you've been using that brand name for years. If someone else registered it first, you have to prove prior use in a challenge process. And that consumes time, money, and energy that no business owner wants to spend.
+
+The prior art search is not optional. It's the first step. Before investing in brand design, before printing materials, before launching, you need to verify that the asset you want to protect is available. I've seen companies build their entire visual identity on a trademark that was already registered.
+
+The process with DIGERPI has clear stages: application, formal examination, publication in the Official Gazette for three months, opposition period, and final resolution. Real timelines — not theoretical ones — range between eight and eighteen months depending on complexity and whether third parties file opposition.
+
+For patents the process is longer and technically more demanding. The examination of novelty, inventive step, and industrial application requires precise documentation. An error in the description of the claim can permanently limit the scope of protection.
+
+I'm frequently asked whether it's worth registering in Panama if the business primarily operates abroad. My answer is always the same: if you have operations or clients in Panama, or plan to, local registration is the starting point. International protection comes after, and Panama is part of the Madrid System for trademarks — which facilitates expansion.
+
+
+###### Sports Law in Latin America: Contracts, Promoters, and Image Rights in Boxing
+
+In boxing, the most important contract an athlete signs isn't with their promoter. It's the one they sign with their own image.
+
+I say this after years of working with Latin American athletes who came to consult me when the damage was already done — contracts that assigned name, nickname, and likeness rights broadly and indefinitely, without proportional consideration, without a reversion clause.
+
+Sports law in Latin America is young. Leagues and organizations — WBC, WBA, WBO, IBF in the case of boxing — operate under their own regulations, which don't always align with the laws of the country where the athlete lives or competes. That gap is where problems happen.
+
+A promoter may have contractual rights over a boxer's fights without having rights over their commercial image. Or they may have those rights too, if the contract was poorly negotiated. The difference between those two scenarios can be the difference between building a long-term personal brand and signing that brand away to a third party for a decade.
+
+I've seen cases where the boxer won the championship and lost the rights to their own story. Their name on products, their image in broadcasts, their commercial appearances — all assigned in clauses that no one clearly explained before signing.
+
+What the athlete needs to understand is that their image rights are an asset independent of their athletic performance. That asset has value before the first title fight, during the peak of their career, and after retirement. Protecting it requires counsel before the contract — not during the litigation.
+
+
+###### International Commercial Contracts — What Every Business Owner Needs to Know
+
+The most dangerous contract I've seen in thirty-nine years of practice had no drafting errors. It had no dispute resolution clause.
+
+That absence cost two years of litigation across three different jurisdictions.
+
+International commercial contracts follow a different logic than domestic contracts. Agreeing on price, delivery terms, and timeline isn't enough. The central question every international contract must answer is: what happens when something goes wrong, where do we resolve it, and under which law?
+
+I've drafted and reviewed contracts between Panamanian companies and counterparts in Europe, Asia, and North America. The most frequent mistake isn't technical — it's that the parties negotiate the deal and leave the contract for last, as if it were a formality. The contract is not the formality. The contract is the deal.
+
+Governing law defines which rules apply in a dispute. Jurisdiction or arbitral seat defines where it gets resolved. The force majeure clause — which no one reads until they need it — defines which events release parties from their obligations. And the confidentiality clause, which many reduce to boilerplate, can be the difference between protecting strategic information and losing it.
+
+When I work with a client on an international contract, the goal isn't just for the document to be legally correct. The goal is for it to be enforceable — so that if there's a problem tomorrow, the contract gives you an advantageous position, not a position of parity with whoever breached.
+
+That requires thinking about the worst case before signing. Not after.
 
 
 ###### The Panamanian Flag: Why Panama Dominates Global Merchant Shipping
@@ -625,66 +670,21 @@ What many shipowners don't anticipate are the post-registration obligations. The
 The Panamanian flag is an asset. Like any asset, it requires management.
 
 
-###### International Commercial Contracts — What Every Business Owner Needs to Know
+###### The Complete Guide to Incorporating a Company in Panama
 
-The most dangerous contract I've seen in thirty-eight years of practice had no drafting errors. It had no dispute resolution clause.
+Every week I receive calls from business owners who have already incorporated in Panama — and did it wrong.
 
-That absence cost two years of litigation across three different jurisdictions.
+Not wrong in the legal sense. Wrong in the sense of irrelevant. A corporation formed without a clear purpose, without an active bank account, without a structure that can withstand international scrutiny, is paper with a notarial seal. Nothing more.
 
-International commercial contracts follow a different logic than domestic contracts. Agreeing on price, delivery terms, and timeline isn't enough. The central question every international contract must answer is: what happens when something goes wrong, where do we resolve it, and under which law?
+Panama has one of the most flexible corporate frameworks in the world. That's an advantage for those who know how to use it and a trap for those who follow trends. I've seen Latin American, European, and North American entrepreneurs — all sharing the same illusion that incorporating in Panama automatically means asset protection or tax efficiency. It doesn't work that way.
 
-I've drafted and reviewed contracts between Panamanian companies and counterparts in Europe, Asia, and North America. The most frequent mistake isn't technical — it's that the parties negotiate the deal and leave the contract for last, as if it were a formality. The contract is not the formality. The contract is the deal.
+The first thing I analyze with every client is the real purpose of the structure. Is it to operate locally? To receive international payments? To protect assets? To build a holding structure? Each answer leads to a different architecture. The corporation is the most common vehicle, but it's not always the right one.
 
-Governing law defines which rules apply in a dispute. Jurisdiction or arbitral seat defines where it gets resolved. The force majeure clause — which no one reads until they need it — defines which events release parties from their obligations. And the confidentiality clause, which many reduce to boilerplate, can be the difference between protecting strategic information and losing it.
+The second issue is the bank account. Panama has tightened its banking compliance standards significantly in recent years — for good reason. Opening an account for a newly incorporated company requires source-of-funds documentation, demonstrable economic activity, and in many cases a prior relationship with the institution. Anyone promising you an account in two weeks probably isn't telling you everything.
 
-When I work with a client on an international contract, the goal isn't just for the document to be legally correct. The goal is for it to be enforceable — so that if there's a problem tomorrow, the contract gives you an advantageous position, not a position of parity with whoever breached.
+The third issue is maintenance. A company that doesn't pay its annual fees to the Public Registry, that doesn't have an active registered agent, that doesn't update its directors and officers, accumulates risk silently. I've received cases where the problem wasn't the transaction — it was that the company had technically been in arrears for three years.
 
-That requires thinking about the worst case before signing. Not after.
-
-
-###### Sports Law in Latin America: Contracts, Promoters, and Image Rights in Boxing
-
-In boxing, the most important contract an athlete signs isn't with their promoter. It's the one they sign with their own image.
-
-I say this after years of working with Latin American athletes who came to consult me when the damage was already done — contracts that assigned name, nickname, and likeness rights broadly and indefinitely, without proportional consideration, without a reversion clause.
-
-Sports law in Latin America is young. Leagues and organizations — WBC, WBA, WBO, IBF in the case of boxing — operate under their own regulations, which don't always align with the laws of the country where the athlete lives or competes. That gap is where problems happen.
-
-A promoter may have contractual rights over a boxer's fights without having rights over their commercial image. Or they may have those rights too, if the contract was poorly negotiated. The difference between those two scenarios can be the difference between building a long-term personal brand and signing that brand away to a third party for a decade.
-
-I've seen cases where the boxer won the championship and lost the rights to their own story. Their name on products, their image in broadcasts, their commercial appearances — all assigned in clauses that no one clearly explained before signing.
-
-What the athlete needs to understand is that their image rights are an asset independent of their athletic performance. That asset has value before the first title fight, during the peak of their career, and after retirement. Protecting it requires counsel before the contract — not during the litigation.
-
-
-###### Trademark and Patent Registration in Panama — Step by Step
-
-DIGERPI processes thousands of applications each year. Most arrive with errors. Many arrive too late.
-
-Too late in the sense that someone already registered first. In Panama — as in most industrial property systems — the principle is first in time, first in right. It doesn't matter that you've been using that brand name for years. If someone else registered it first, you have to prove prior use in a challenge process. And that consumes time, money, and energy that no business owner wants to spend.
-
-The prior art search is not optional. It's the first step. Before investing in brand design, before printing materials, before launching, you need to verify that the asset you want to protect is available. I've seen companies build their entire visual identity on a trademark that was already registered.
-
-The process with DIGERPI has clear stages: application, formal examination, publication in the Official Gazette for three months, opposition period, and final resolution. Real timelines — not theoretical ones — range between eight and eighteen months depending on complexity and whether third parties file opposition.
-
-For patents the process is longer and technically more demanding. The examination of novelty, inventive step, and industrial application requires precise documentation. An error in the description of the claim can permanently limit the scope of protection.
-
-I'm frequently asked whether it's worth registering in Panama if the business primarily operates abroad. My answer is always the same: if you have operations or clients in Panama, or plan to, local registration is the starting point. International protection comes after, and Panama is part of the Madrid System for trademarks — which facilitates expansion.
-
-
-###### How the Panama–Spain Legal Alliance Works in Cross-Border Cases
-
-When a case crosses the Atlantic, what matters most isn't knowing the law in two countries. It's knowing who to call on the other side.
-
-My alliance with Crespo & Ruiz in Madrid isn't a referral agreement. It's a working relationship built on real cases — commercial litigation, judgment recognition proceedings, corporate transactions involving entities in both jurisdictions, and clients who live in one country and operate in the other.
-
-Spain and Panama have a particular legal relationship. The tax treaty between both countries is one of the most relevant for business owners operating in both markets. The historical presence of Spanish capital in Panama — in banking, construction, telecommunications — has generated decades of cross-border case law that very few local firms know in depth.
-
-What the alliance resolves is the enforcement problem. Winning an arbitration in Panama against a Spanish counterpart isn't worth much if no one in Madrid can enforce the judgment. And vice versa. Coordination between jurisdictions — both in procedural strategy and timing of actions — is what determines whether a cross-border case ends well or extends indefinitely.
-
-I've managed cases where the client was in Madrid, the asset was in Panama, and the counterparty was in a third country. Those cases are not managed with a call to a correspondent firm. They're managed with a team that already has practice working together, that speaks the same legal language, and that understands the timelines and logic of each system.
-
-If you have a matter involving Spain and Panama — corporate, tax, litigation, or intellectual property — that's exactly the combination this alliance exists for.
+Incorporating in Panama is a decision made with information, not with urgency. If you already have a corporation and you're not sure it's working the way it should, that's the starting point.
 
 
 **Footer:**  Alberto Guerra — Alberto E. Guerra P.  ·  © 2026 · Panama City, Republic of Panama  ·  APEDE · Panama Chamber of Commerce  ·  World Boxing Council — Vice Presidency
