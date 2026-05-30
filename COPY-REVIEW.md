@@ -153,17 +153,17 @@ Alianza estratégica con firma española líder en derecho corporativo e interna
 ## Page 4 · Recursos (ES) — /recursos/
 
 **`<title>`**  Recursos Legales · Alberto Guerra — Abogado Internacional Panamá
-**`<meta description>`**  Preguntas frecuentes y análisis sobre derecho corporativo, marítimo, deportivo y propiedad industrial en Panamá. Por Alberto E. Guerra P., abogado internacional con 38 años de práctica.
+**`<meta description>`**  Guías gratuitas y blog mensual sobre derecho corporativo, marítimo, deportivo y propiedad industrial en Panamá. Por Alberto E. Guerra P., abogado internacional con 39 años de práctica.
 
 Recursos Legales
 
 
-#### Las preguntas que *realmente* hacen los clientes.
+#### Educación legal para empresarios, *atletas* e inversores.
 
-Diez preguntas frecuentes y seis análisis editoriales sobre los temas que más afectan a empresas internacionales, atletas e inversores que operan en o desde Panamá. Cada respuesta viene de casos reales — no de plantillas.
+Diez guías gratuitas sobre los temas más comunes y un blog mensual con análisis editorial. Recursos para anticipar las decisiones antes de que se conviertan en problemas.
 
 
-##### Preguntas frecuentes
+##### Guías gratuitas
 
 
 ###### ¿Cómo registro una empresa en Panamá desde el extranjero?
@@ -216,7 +216,7 @@ Lo primero que reviso es el contrato original — específicamente la cláusula 
 El nearshoring hacia Panamá está creciendo — y la mayoría de las empresas llegan con la estructura equivocada o sin estructura en absoluto. Las opciones principales son la sociedad anónima local, la sucursal de sociedad extranjera, y las entidades bajo regímenes especiales como la Zona Económica Especial Panamá Pacífico. Cada una tiene implicaciones fiscales, laborales, y de responsabilidad distintas. Lo que funciona para una empresa tecnológica de Boston no necesariamente funciona para una firma de servicios de Madrid. La decisión se toma antes de firmar el primer contrato local.
 
 
-##### Análisis editorial
+##### Blog mensual
 
 
 ###### Guía completa: cómo constituir una empresa en Panamá
@@ -525,17 +525,17 @@ In 2020 the firm created the **International Sports Business Department** in all
 ## Page 4 · Resources (EN) — /en/resources/
 
 **`<title>`**  Legal Resources · Alberto Guerra — International Attorney Panama
-**`<meta description>`**  Frequently asked questions and editorial analysis on corporate, maritime, sports, and industrial property law in Panama. By Alberto E. Guerra P., international attorney with 38 years of practice.
+**`<meta description>`**  Free guides and monthly editorial blog on corporate, maritime, sports, and industrial property law in Panama. By Alberto E. Guerra P., international attorney with 39 years of practice.
 
 Legal Resources
 
 
-#### The questions clients *actually* ask.
+#### Legal education for entrepreneurs, *athletes*, and investors.
 
-Ten frequently asked questions and six editorial analyses on the topics that most affect international businesses, athletes, and investors operating in or from Panama. Every answer comes from real cases — not templates.
+Ten free guides on the most common topics and a monthly editorial blog. Resources to anticipate decisions before they become problems.
 
 
-##### Frequently Asked Questions
+##### Free Guides
 
 
 ###### How do I register a company in Panama from abroad?
@@ -588,7 +588,7 @@ The first thing I review is the original contract — specifically the dispute r
 Nearshoring into Panama is growing — and most companies arrive with the wrong structure or no structure at all. The main options are a local corporation, a foreign company branch, and entities under special regimes like the Panama Pacifico Special Economic Area. Each carries different tax, labor, and liability implications. What works for a tech company from Boston doesn't necessarily work for a services firm from Madrid. The decision gets made before you sign the first local contract.
 
 
-##### Editorial Analysis
+##### Monthly Blog
 
 
 ###### The Complete Guide to Incorporating a Company in Panama
