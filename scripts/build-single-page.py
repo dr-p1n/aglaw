@@ -90,7 +90,6 @@ home_main = main_inner(home_html)
 hero_section    = get_section_by_class(home_main, 'hero')
 intro_section   = get_section_by_class(home_main, 'intro')
 contact_section = get_section_by_class(home_main, 'contact')
-form_section    = get_section_by_class(home_main, 'contact-form-section')
 
 # Swap in base64 photo
 hero_section = hero_section.replace('/img/alberto.jpg', PHOTO_URI)
@@ -141,19 +140,15 @@ HTML = f'''<!DOCTYPE html>
 ═══════════════════════════════════════════════════════════════════════
   ALBERTO E. GUERRA P. — single-file deployment build
   ════════════════════════════════════════════════════════════════════
-  Generated from the 5-page source in /Users/jelv/AG_law/ via
-  scripts/build-single-page.py. Re-run after copy edits to refresh.
+  Generated from the 5-page source repo via scripts/build-single-page.py.
+  Re-run after copy edits to refresh.
 
   Drop this file as index.html on any web server. No other files
-  needed — CSS is inlined, hero photo is base64-embedded, fonts and
-  the form backend are external. The contact form posts to
-  forms.ptytropicsadvisors.com/aglaw (Cloudflare Worker → Apps Script).
+  needed — CSS is inlined, hero photo is base64-embedded, only the
+  Google Fonts stylesheet and the Maps iframe are external.
 
-  Before launch:
-    1. Replace YOUR_TURNSTILE_SITEKEY (search this file) with a real
-       Cloudflare Turnstile sitekey.
-    2. Make sure the Worker (forms.ptytropicsadvisors.com/aglaw) is
-       deployed and pointing at the Apps Script Web App URL.
+  No contact form and no JavaScript: WhatsApp is the sole contact
+  channel, so there is no backend to configure before launch.
 ═══════════════════════════════════════════════════════════════════════
 -->
 <html lang="es">
@@ -174,7 +169,7 @@ HTML = f'''<!DOCTYPE html>
 <meta property="og:description" content="38 años resolviendo asuntos legales complejos en Panamá y el mundo.">
 <meta property="og:locale" content="es_PA">
 
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; script-src 'self' 'unsafe-inline' https://challenges.cloudflare.com; frame-src https://www.google.com https://challenges.cloudflare.com; connect-src https://forms.ptytropicsadvisors.com https://challenges.cloudflare.com; form-action https://forms.ptytropicsadvisors.com;">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; script-src 'self'; frame-src https://www.google.com; connect-src 'self'; form-action 'none'; base-uri 'self';">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -223,54 +218,10 @@ HTML = f'''<!DOCTYPE html>
 
 {contact_section}
 
-{form_section}
-
 </main>
 
 <footer role="contentinfo">{footer_inner}</footer>
 
-<!-- Cloudflare Turnstile loader (deferred, non-blocking) -->
-<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-
-<!-- Form submit handler -->
-<script>
-(function() {{
-  const form = document.getElementById('contact-form');
-  if (!form) return;
-  const status     = form.querySelector('.form-status');
-  const submitBtn  = form.querySelector('.form-submit');
-  const submitText = submitBtn.innerHTML;
-
-  form.addEventListener('submit', async function(e) {{
-    e.preventDefault();
-    submitBtn.disabled    = true;
-    submitBtn.textContent = 'Enviando…';
-    status.textContent    = '';
-    status.className      = 'form-status';
-
-    try {{
-      const res  = await fetch(form.action, {{ method: 'POST', body: new FormData(form) }});
-      const data = await res.json();
-
-      if (data.ok) {{
-        form.reset();
-        status.className   = 'form-status form-status-ok';
-        status.textContent = 'Mensaje recibido. Le respondemos en menos de 48 horas hábiles.';
-        if (window.turnstile) window.turnstile.reset();
-      }} else {{
-        throw new Error(data.error || 'unknown');
-      }}
-    }} catch (err) {{
-      status.className   = 'form-status form-status-err';
-      status.textContent = 'No pudimos enviar el mensaje. Por favor escríbanos por WhatsApp.';
-      console.error('form error:', err);
-    }} finally {{
-      submitBtn.disabled  = false;
-      submitBtn.innerHTML = submitText;
-    }}
-  }});
-}})();
-</script>
 
 </body>
 </html>

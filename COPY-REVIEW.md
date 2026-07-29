@@ -57,13 +57,7 @@ Fundado en 1987 en la Ciudad de Panamá. Práctica concentrada en asuntos transf
 - **Horario** — Lunes a Viernes · 9:00 – 17:00
 `[CTA: Escribir por WhatsApp →]`
 
-
-#### Escribir
-
-
-##### ¿Su asunto / cruza *fronteras*?
-
-Describa el caso. Le respondemos en menos de 48 horas hábiles.
+Le respondemos en menos de 48 horas hábiles.
 
 
 **Footer:**  Alberto Guerra — Alberto E. Guerra P.  ·  © 2026 · Ciudad de Panamá, República de Panamá  ·  APEDE · Cámara de Comercio de Panamá  ·  Consejo Mundial de Boxeo — Vicepresidencia
@@ -422,13 +416,7 @@ Founded in 1987 in Panama City. Practice focused on cross-border matters: compan
 - **Hours** — Monday to Friday · 9:00 AM – 5:00 PM
 `[CTA: Message us on WhatsApp →]`
 
-
-#### Write
-
-
-##### Does your matter / cross *borders*?
-
-Describe the case. We reply in under 48 business hours.
+We reply within 48 business hours.
 
 
 **Footer:**  Alberto Guerra — Alberto E. Guerra P.  ·  © 2026 · Panama City, Republic of Panama  ·  APEDE · Panama Chamber of Commerce  ·  World Boxing Council — Vice Presidency

@@ -1,16 +1,19 @@
-# AG Law — website redesign
+# AG Law — website
 
-Static site for **Alberto E. Guerra P.** (AG Law, Panama). Five pages, two languages (ES default, EN coming), typographic minimal aesthetic with a portrait-driven hero.
+Static site for **Alberto E. Guerra P.** (AG Law, Panama). Five pages, two languages (ES default, EN complete), typographic minimal aesthetic with a portrait-driven hero.
 
-## Status: preview mode
+## Status: production
 
-Closed-loop UI review for the client. Wired to Cloudflare Pages — every push to `main` auto-deploys.
+Live at **albertoeguerrap.com** (GoDaddy, Apache). Also mirrored on Cloudflare Pages — every push to `main` auto-deploys to `aglaw-preview.pages.dev`.
 
-- Preview URL: _paste your `aglaw-preview.pages.dev` URL here once CF Pages is connected_
-- `<meta name="robots" content="noindex, nofollow">` on every page.
-- No contact form. The persistent WhatsApp CTA in the nav is the primary contact channel during preview.
-- Hero photo is a temporary import from the old WordPress site (`/img/alberto-temp.jpg`). Swap when professional headshots arrive.
+- `<meta name="robots" content="index, follow, …">` on all 10 pages.
+- **No contact form and no JavaScript.** WhatsApp is the sole contact channel — linked from the nav, the hero CTA, and the Contacto section. The Contacto section also carries the address, hours, and a Google Maps embed.
 - Both languages built. hreflang chains validated, sitemap symmetric (10 URLs, 3 alternates each).
+- Schema.org: `Attorney` + `LegalService` + `Person` + `FAQPage` + `Article`, all JSON-LD.
+
+### Deploy is two separate steps
+
+Cloudflare Pages auto-deploys on push. **GoDaddy does not** — production serves files uploaded by hand via cPanel File Manager, so a push alone never reaches `albertoeguerrap.com`. Reaching production means regenerating `dist-multipage.zip`, pushing it, and having Jaime re-upload. See `HANDOFF-JAIME.md`.
 
 ## Site structure
 
@@ -19,10 +22,14 @@ Closed-loop UI review for the client. Wired to Cloudflare Pages — every push t
 | Home | `/` | `/en/` | Hero with portrait, intro, services teaser, contact section with Google Maps |
 | Practice | `/practica/` | `/en/practice/` | 6-area grid (Internacional, Comercial, Propiedad Industrial, Aduanero, Marítimo, Deportivo) |
 | Network | `/red/` | `/en/network/` | Corresponsales + Crespo & Ruiz alliance + history of the firm |
-| Resources | `/recursos/` | `/en/resources/` | FAQ-style legal resources (4 questions, FAQPage schema) |
+| Resources | `/recursos/` | `/en/resources/` | Educational hub — 10 free guides (accordion) + 6 long-form blog articles |
 | About | `/perfil/` | `/en/about/` | Alberto's bio, WBC vice presidency, credentials |
 
 Nav across all pages: **Práctica · Red · Recursos · Perfil · [WhatsApp button] · [ES|EN]**
+
+### Heading rule
+
+**Only the homepage has an `<h1>`.** The 8 sub-pages start at `<h2>` (`.page-hero-title`) and descend from there. This is a deliberate project decision — do not "fix" it.
 
 ## File map
 
@@ -38,55 +45,55 @@ AG_law/
 │   ├── practice/index.html Page 2 — Practice (EN)
 │   ├── network/index.html  Page 3 — Network (EN)
 │   ├── resources/index.html Page 4 — Resources (EN)
-│   └── about/index.html    Page 5 — About (EN)
+│   └── about/index.html     Page 5 — About (EN)
 ├── styles.css              Shared stylesheet — single source of truth for all CSS
-├── img/alberto-temp.jpg    Temp hero portrait from WordPress site
+├── img/alberto.jpg         Hero portrait (1280×853)
+├── content/                Source of truth for the Recursos copy (faqs.md, articles.md)
 ├── sitemap.xml             10 URLs, hreflang-symmetric
-├── robots.txt              Crawler directives (irrelevant under noindex but harmless)
-├── .htaccess               Apache config — parked until GoDaddy production
-├── apps-script.gs          Backend — parked, full setup docs in file header
-├── worker.js               Cloudflare Worker form proxy — parked, full setup docs in file header
+├── robots.txt              Crawler directives
+├── .htaccess               Apache config — security headers, live on GoDaddy
+├── scripts/
+│   ├── build-single-page.py  Regenerates dist/index.html
+│   └── extract-copy.py       Regenerates COPY-REVIEW.md from the 10 HTML files
+├── dist/index.html         Single self-contained file (CSS inlined, photo base64)
+├── dist-multipage/         Multi-file bundle — literal copy of the source files
+├── dist-multipage.zip      What Jaime downloads and uploads
+├── HANDOFF-JAIME.md        Upload instructions, in Spanish
 └── README.md               This file
 ```
 
-## Going to production
+## Content Security Policy
 
-When the design is approved and you're ready to deploy to GoDaddy:
+The CSP lives in **two** places and browsers enforce **both**, intersecting them — a source missing from either one is blocked:
 
-1. **Add a contact form** to the Home page (or its own `/contacto/` page). The form contract is documented in `apps-script.gs`.
-2. **Flip robots meta** in all 5 (eventually 10) HTML files from `noindex, nofollow` to `index, follow, max-snippet:-1, max-image-preview:large`.
-3. **Restore the production CSP** to allow Turnstile + the Worker domain.
-4. **Set up the Apps Script backend** — instructions in `apps-script.gs` header.
-5. **Set up the Cloudflare Worker proxy** — instructions in `worker.js` header.
-6. **Set up Cloudflare Turnstile** — sitekey into the form, secret into Apps Script config.
-7. **Hand off to Jaime** for GoDaddy upload. Files for `public_html/`:
-   - All HTML files (preserving subdirectory structure)
-   - `styles.css`, `img/`, `sitemap.xml`, `robots.txt`, `.htaccess`
-   - Skip: `apps-script.gs`, `worker.js` (those live on Google / Cloudflare)
+1. `.htaccess` — the `Content-Security-Policy` response header, applied site-wide by Apache.
+2. A `<meta http-equiv="Content-Security-Policy">` in each HTML file.
 
-## Production architecture (for reference)
+Consequences worth remembering:
 
-```
-Browser (albertoeguerrap.com)
-        ↓ form POST
-forms.ptytropicsadvisors.com/aglaw    Cloudflare Worker
-        ↓
-script.google.com/macros/.../exec     Apps Script (Google)
-        ↓
-Google Sheet                          submissions land here
-                                      email fires to Alberto
+- `frame-src https://www.google.com` must be present in the `.htaccess` header **and** in the two home pages, or the Maps embed renders as an empty bordered box. This exact mismatch shipped once and silently blanked the map in production.
+- `script-src` deliberately omits `'unsafe-inline'`. The only `<script>` tags left in the site are `type="application/ld+json"` data blocks, which are never evaluated and so are unaffected. Adding real inline JavaScript means loosening this.
+- `style-src` keeps `'unsafe-inline'` — several elements still use `style=` attributes.
+- `form-action 'none'` — there are no forms.
+
+## Regenerating the build artifacts
+
+Run both after any copy or style edit, then commit everything together:
+
+```bash
+python3 scripts/build-single-page.py
 ```
 
-Worker, Apps Script, and Sheet are all under your account.
+```bash
+python3 scripts/extract-copy.py
+```
+
+`dist-multipage/` is a literal copy of the source files (including `.htaccess`), rezipped as `dist-multipage.zip`.
 
 ## Useful commands
 
 ```bash
-# Local preview (cleanest)
-python3 -m http.server 8000   # then http://localhost:8000
-
-# Auto-deploy via Cloudflare Pages
-git add .
-git commit -m "..."
-git push
+python3 -m http.server 8000
 ```
+
+Note that `python3 -m http.server` ignores `.htaccess`, so it does not reproduce the response-header CSP. Anything that depends on those headers has to be checked against Cloudflare Pages or production.

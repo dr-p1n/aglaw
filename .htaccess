@@ -30,7 +30,10 @@ Options -Indexes
   Header always set X-Content-Type-Options "nosniff"
   Header always set Referrer-Policy "strict-origin-when-cross-origin"
   Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), interest-cohort=()"
-  Header always set Content-Security-Policy "default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; script-src 'self' 'unsafe-inline' https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; form-action 'self'; connect-src 'self' https://forms.ptytropicsadvisors.com; frame-ancestors 'none'; base-uri 'self';"
+  # frame-src MUST include www.google.com — the Contacto section embeds a Maps
+  # iframe. Browsers enforce this header AND the per-page <meta> CSP together,
+  # so anything missing here is blocked even if the meta allows it.
+  Header always set Content-Security-Policy "default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; script-src 'self'; frame-src https://www.google.com; connect-src 'self'; form-action 'none'; frame-ancestors 'none'; base-uri 'self';"
 
   # Remove server signature
   Header unset X-Powered-By
