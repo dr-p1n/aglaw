@@ -237,3 +237,44 @@ I've managed cases where the client was in Madrid, the asset was in Panama, and 
 If you have a matter involving Spain and Panama — corporate, tax, litigation, or intellectual property — that's exactly the combination this alliance exists for.
 
 *SEO targets: Panama Spain cross-border legal cases, international lawyer Panama Spain, Panama Spain tax treaty attorney, transnational litigation Panama*
+
+---
+
+## 7. El potencial mediático deportivo de Panamá: sede, no solo cantera
+**Panama's Sports Media Potential: Host Country, Not Just Talent Exporter**
+
+**ES:**
+Panamá produce campeones mundiales desde hace casi un siglo. Lo que todavía no ha construido es la infraestructura jurídica para quedarse con el valor que esos campeones generan.
+
+Panamá Al Brown fue el primer campeón mundial latinoamericano. Después vinieron Ismael Laguna, Roberto Durán, Eusebio Pedroza. Para un país de nuestro tamaño, esa densidad de campeones no tiene comparación en la región. Pero el patrón se repite: el atleta es panameño y la pelea se televisa desde otro país, el promotor opera desde otra jurisdicción, el patrocinador firma en otra plaza, y el derecho de transmisión se negocia bajo una ley que no es la nuestra. El talento se exporta. El negocio se queda afuera.
+
+Las condiciones para invertir ese patrón ya existen, y no son deportivas — son logísticas y jurídicas. Panamá opera en dólares, sin la fricción cambiaria que complica cualquier contrato de patrocinio internacional. Está en UTC-5 y no cambia de horario, de modo que un evento en horario estelar panameño lo es simultáneamente para el mercado norteamericano y para buena parte de Latinoamérica — algo que ningún otro hub de la región puede ofrecer con la misma limpieza. Tocumen conecta el continente en vuelos directos, lo que importa cuando hay que mover equipos de producción, comisionados y prensa en ventanas de cuarenta y ocho horas. Y existe ya una infraestructura corporativa y bancaria construida para operaciones internacionales. Son exactamente las mismas razones por las que las multinacionales instalan aquí sus sedes regionales.
+
+Lo que falta no es un estadio. Es el andamiaje contractual que convierte un evento en un activo. Quién es titular de la señal y cómo se fracciona por territorio. Cómo se separan las ventanas de televisión abierta, cable y streaming sin canibalizarse. Qué pasa con los derechos de imagen de los atletas visitantes durante los días que están en el país. Cómo se trata fiscalmente el ingreso que un atleta no residente genera en Panamá, y qué convenio de doble imposición aplica según su nacionalidad. Bajo qué régimen migratorio entra un equipo de producción de sesenta personas por una semana. Y cómo se acredita todo eso ante el organismo sancionador, que tiene su propio reglamento y no lo flexibiliza.
+
+Desde mi posición en el Consejo Mundial de Boxeo he visto cómo se decide dónde se hace una pelea. No se decide por la capacidad del recinto. Se decide por si los organizadores pueden garantizar, en un contrato que resista, las condiciones del combate: la bolsa en garantía, los protocolos médicos, el control antidopaje, la cadena de custodia de las decisiones arbitrales, y una cláusula de resolución de disputas que ambas partes acepten de antemano. Una sede que no puede documentar eso no pierde la pelea en la negociación. La pierde antes, cuando ni siquiera la consideran.
+
+Ese trabajo se hace con anticipación y se hace una sola vez. La arquitectura contractual de un evento internacional es reutilizable: se estructura bien la primera vez y las siguientes se construyen encima. Es lo mismo que ocurrió con el registro naval — Panamá no domina la marina mercante global por accidente geográfico, sino porque construyó, hace décadas, la infraestructura jurídica que hacía falta y después la mantuvo. El deporte admite la misma lógica.
+
+Para eso existe el Departamento Internacional de Negocios Deportivos de la firma. Si usted está evaluando traer un evento internacional a Panamá, estructurar derechos de transmisión, o negociar un acuerdo de patrocinio que cruce fronteras, el punto de partida no es el recinto. Es el contrato.
+
+*SEO targets: negocios deportivos Panamá, derechos de transmisión deportiva Panamá, sede eventos deportivos internacionales Panamá, derecho deportivo Panamá abogado*
+
+---
+
+**EN:**
+Panama has been producing world champions for nearly a century. What it has not yet built is the legal infrastructure to capture the value those champions generate.
+
+Panamá Al Brown was the first Latin American world champion. Ismael Laguna, Roberto Durán, and Eusebio Pedroza followed. For a country our size, that concentration of champions has no equal in the region. But the pattern repeats itself: the athlete is Panamanian and the fight is broadcast from somewhere else, the promoter operates from another jurisdiction, the sponsor signs in another market, and the broadcast rights are negotiated under a law that isn't ours. The talent is exported. The business stays abroad.
+
+The conditions to reverse that pattern already exist, and they aren't athletic — they're logistical and legal. Panama runs on the dollar, without the currency friction that complicates any international sponsorship contract. It sits at UTC-5 and doesn't observe daylight saving, so a Panamanian prime-time event is simultaneously prime time for the North American market and for much of Latin America — something no other regional hub offers as cleanly. Tocumen connects the continent by direct flight, which matters when production crews, commissioners, and press have to move inside forty-eight-hour windows. And the corporate and banking infrastructure built for international operations is already here. These are precisely the reasons multinationals place their regional headquarters in Panama.
+
+What's missing isn't a venue. It's the contractual scaffolding that turns an event into an asset. Who owns the signal and how it's divided by territory. How free-to-air, cable, and streaming windows are separated without cannibalizing each other. What happens to visiting athletes' image rights during the days they're in the country. How income earned in Panama by a non-resident athlete is taxed, and which double taxation treaty applies depending on nationality. Under what immigration framework a sixty-person production crew enters for a week. And how all of it is documented for the sanctioning body, which has its own rulebook and does not bend it.
+
+From my seat on the World Boxing Council, I've seen how the decision of where to stage a fight actually gets made. It isn't decided by the capacity of the venue. It's decided by whether the organizers can guarantee, in a contract that holds, the conditions of the bout: the purse in escrow, the medical protocols, anti-doping control, the chain of custody for officiating decisions, and a dispute resolution clause both sides accept in advance. A host city that can't document that doesn't lose the fight in negotiation. It loses it earlier, when it isn't considered at all.
+
+That work is done in advance, and it's done once. The contractual architecture of an international event is reusable: structure it properly the first time and the ones that follow are built on top of it. It's the same thing that happened with the ship registry — Panama doesn't dominate global merchant shipping by geographic accident, but because it built the legal infrastructure the job required, decades ago, and then maintained it. Sport allows for the same logic.
+
+That's what the firm's International Sports Business Department exists for. If you're evaluating bringing an international event to Panama, structuring broadcast rights, or negotiating a sponsorship agreement that crosses borders, the starting point isn't the venue. It's the contract.
+
+*SEO targets: sports business law Panama, sports broadcasting rights Panama, hosting international sporting events Panama, sports law attorney Panama*

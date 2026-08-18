@@ -27,6 +27,15 @@ PHOTO_URI = 'data:image/jpeg;base64,' + base64.b64encode(
     (ROOT / 'img/alberto.jpg').read_bytes()
 ).decode()
 
+# Icons go in as data: URIs too — this build has to survive being dropped
+# on a server as a lone index.html, with no sibling files to link to.
+FAVICON_URI = 'data:image/x-icon;base64,' + base64.b64encode(
+    (ROOT / 'favicon.ico').read_bytes()
+).decode()
+APPLE_ICON_URI = 'data:image/png;base64,' + base64.b64encode(
+    (ROOT / 'apple-touch-icon.png').read_bytes()
+).decode()
+
 
 def read(path):
     return (ROOT / path).read_text()
@@ -159,14 +168,14 @@ HTML = f'''<!DOCTYPE html>
 <meta name="referrer" content="strict-origin-when-cross-origin">
 
 <title>Alberto Guerra | Abogado Internacional en Panamá</title>
-<meta name="description" content="Bufete de abogados en Panamá con 38 años de trayectoria internacional. Derecho internacional, comercial, marítimo, deportivo y propiedad industrial. Alianza con Crespo &amp; Ruiz, Madrid.">
+<meta name="description" content="Bufete de abogados en Panamá con 39 años de trayectoria internacional. Derecho internacional, comercial, marítimo, deportivo y propiedad industrial. Alianza con Crespo &amp; Ruiz, Madrid.">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 <link rel="canonical" href="https://albertoeguerrap.com/">
 
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://albertoeguerrap.com/">
 <meta property="og:title" content="Alberto Guerra | Abogado Internacional en Panamá">
-<meta property="og:description" content="38 años resolviendo asuntos legales complejos en Panamá y el mundo.">
+<meta property="og:description" content="39 años resolviendo asuntos legales complejos en Panamá y el mundo.">
 <meta property="og:locale" content="es_PA">
 
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; script-src 'self'; frame-src https://www.google.com; connect-src 'self'; form-action 'none'; base-uri 'self';">
@@ -174,6 +183,10 @@ HTML = f'''<!DOCTYPE html>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Outfit:wght@200;300;400&display=swap" rel="stylesheet">
+
+<link rel="icon" href="{FAVICON_URI}" sizes="any">
+<link rel="apple-touch-icon" href="{APPLE_ICON_URI}">
+<meta name="theme-color" content="#0A0A08">
 
 <script type="application/ld+json">
 {json.dumps(combined_schema, indent=2, ensure_ascii=False)}

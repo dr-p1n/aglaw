@@ -48,13 +48,18 @@ AG_law/
 │   └── about/index.html     Page 5 — About (EN)
 ├── styles.css              Shared stylesheet — single source of truth for all CSS
 ├── img/alberto.jpg         Hero portrait (1280×853)
+├── favicon.ico             Serif "A" monogram, gold on --bg — 16/32/48 px
+├── favicon.svg             Vector version of the same mark
+├── apple-touch-icon.png    180 px, iOS home-screen bookmark
 ├── content/                Source of truth for the Recursos copy (faqs.md, articles.md)
 ├── sitemap.xml             10 URLs, hreflang-symmetric
 ├── robots.txt              Crawler directives
 ├── .htaccess               Apache config — security headers, live on GoDaddy
 ├── scripts/
-│   ├── build-single-page.py  Regenerates dist/index.html
-│   └── extract-copy.py       Regenerates COPY-REVIEW.md from the 10 HTML files
+│   ├── build-single-page.py    Regenerates dist/index.html
+│   ├── build-dist-multipage.py Regenerates dist-multipage/ and the zip
+│   ├── build-favicon.py        Regenerates the three icon files
+│   └── extract-copy.py         Regenerates COPY-REVIEW.md from the 10 HTML files
 ├── dist/index.html         Single self-contained file (CSS inlined, photo base64)
 ├── dist-multipage/         Multi-file bundle — literal copy of the source files
 ├── dist-multipage.zip      What Jaime downloads and uploads
@@ -78,17 +83,23 @@ Consequences worth remembering:
 
 ## Regenerating the build artifacts
 
-Run both after any copy or style edit, then commit everything together:
+Run all three after any copy or style edit, then commit everything together:
 
 ```bash
 python3 scripts/build-single-page.py
 ```
 
 ```bash
+python3 scripts/build-dist-multipage.py
+```
+
+```bash
 python3 scripts/extract-copy.py
 ```
 
-`dist-multipage/` is a literal copy of the source files (including `.htaccess`), rezipped as `dist-multipage.zip`.
+`dist-multipage/` is a literal copy of the source files (including `.htaccess`), rezipped as `dist-multipage.zip`. The file list lives in `build-dist-multipage.py` — syncing it by hand is how the zip went stale once already. The zip is written with fixed timestamps, so an unchanged site rebuilds to a byte-identical zip instead of a spurious diff.
+
+`build-favicon.py` only needs re-running if the mark itself changes. It requires Pillow and reads Baskerville from the macOS system fonts.
 
 ## Useful commands
 

@@ -767,7 +767,6 @@ section { padding: 100px 64px; }
   font-weight: 300;
   color: var(--text-muted);
   margin-top: 16px;
-  max-width: 30ch;
 }
 
 .map-embed {

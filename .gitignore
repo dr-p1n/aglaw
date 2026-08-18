@@ -26,3 +26,10 @@ node_modules/
 
 # Claude Code project state
 .claude/
+
+# Superseded local delivery folder — holds the May 2026 zip, which still
+# has the dead contact form in it. Kept on disk, never shipped.
+entrega final 5.29/
+
+# Firecrawl scratch
+.firecrawl/
