@@ -48,6 +48,8 @@ AG_law/
 │   └── about/index.html     Page 5 — About (EN)
 ├── styles.css              Shared stylesheet — single source of truth for all CSS
 ├── img/alberto.jpg         Hero portrait (1280×853)
+├── img/alberto-retrato.jpg Profile portrait (375×562) — © La Prensa, see below
+├── img/alberto-cmb.jpg     With the WBC belt (527×338) — © El Siglo, see below
 ├── favicon.ico             Serif "A" monogram, gold on --bg — 16/32/48 px
 ├── favicon.svg             Vector version of the same mark
 ├── apple-touch-icon.png    180 px, iOS home-screen bookmark
@@ -80,6 +82,26 @@ Consequences worth remembering:
 - `script-src` deliberately omits `'unsafe-inline'`. The only `<script>` tags left in the site are `type="application/ld+json"` data blocks, which are never evaluated and so are unaffected. Adding real inline JavaScript means loosening this.
 - `style-src` keeps `'unsafe-inline'` — several elements still use `style=` attributes.
 - `form-action 'none'` — there are no forms.
+
+## Image rights
+
+`img/alberto.jpg` is the client's own photo. The two images on the profile
+pages are not:
+
+| File | Source | Where it came from |
+|---|---|---|
+| `img/alberto-retrato.jpg` | © La Prensa (Panama) | Article on his WBC vice-presidency |
+| `img/alberto-cmb.jpg` | © El Siglo (Panama) | Article on his WBC vice-presidency |
+
+Neither is licensed. This was raised and the client's side chose to publish
+them anyway; both carry a visible credit line in the page (`.photo-credit`)
+rather than running uncredited. If either outlet objects, the fix is to drop
+the two `<figure>` blocks from `perfil/index.html` and `en/about/index.html`
+and delete the files — nothing else depends on them.
+
+The durable fix is an original from Alberto. His Instagram (`@aguerra62`)
+has WBC event photography that would replace both at higher resolution and
+with clean rights.
 
 ## Regenerating the build artifacts
 

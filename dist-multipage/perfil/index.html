@@ -39,7 +39,11 @@
   "name": "Alberto E. Guerra P.",
   "jobTitle": "Abogado",
   "description": "Abogado panameño con más de 39 años de ejercicio. Especialista en derecho internacional, marítimo y deportivo. Vicepresidente del Consejo Mundial de Boxeo.",
-  "image": "https://albertoeguerrap.com/img/alberto.jpg",
+  "image": [
+    "https://albertoeguerrap.com/img/alberto-retrato.jpg",
+    "https://albertoeguerrap.com/img/alberto.jpg",
+    "https://albertoeguerrap.com/img/alberto-cmb.jpg"
+  ],
   "memberOf": [
     {"@type": "Organization", "name": "APEDE"},
     {"@type": "Organization", "name": "Cámara de Comercio e Industria de Panamá"},
@@ -73,12 +77,21 @@
 
 <main id="main">
 
-<section class="page-hero" aria-label="Perfil del abogado">
+<section class="page-hero page-hero--portrait" aria-label="Perfil del abogado">
   <p class="page-hero-eyebrow">El Abogado</p>
   <h2 class="page-hero-title">39 años navegando<br>el mundo <em>comercial</em><br>y asesorando desde<br>diferentes jurisdicciones.</h2>
   <p class="page-hero-sub">
     Alberto E. Guerra P. — abogado panameño en ejercicio desde 1987. Especialista en derecho internacional, marítimo y deportivo.
   </p>
+
+  <figure class="profile-portrait">
+    <span class="profile-portrait-frame">
+      <img src="/img/alberto-retrato.jpg"
+         alt="Retrato de Alberto E. Guerra P., abogado internacional panameño"
+         width="375" height="562" loading="eager">
+    </span>
+    <figcaption class="photo-credit">Foto: La Prensa</figcaption>
+  </figure>
 </section>
 
 <section>
@@ -97,6 +110,13 @@
       <p class="about-body">
         En 2020 el bufete creó el <strong style="color:var(--text);font-weight:400;">Departamento Internacional de Negocios Deportivos</strong> en alianza con la oficina española Crespo &amp; Ruiz. Es la única unidad del país especializada en derecho deportivo internacional con representación directa ante organismos como la WBC, FIFA y el Comité Olímpico.
       </p>
+
+      <figure class="wbc-figure">
+        <img src="/img/alberto-cmb.jpg"
+             alt="Alberto E. Guerra P. con el cinturón del Consejo Mundial de Boxeo"
+             width="527" height="338" loading="lazy">
+        <figcaption class="photo-credit">Foto: El Siglo</figcaption>
+      </figure>
 
       <div class="wbc-badge" aria-label="Consejo Mundial de Boxeo">
         <div class="wbc-badge-icon" aria-hidden="true">CMB</div>

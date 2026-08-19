@@ -650,6 +650,64 @@ section { padding: 100px 64px; }
   margin-bottom: 20px;
 }
 
+/* ── Profile portrait — /perfil/ and /en/about/ only ──
+   .page-hero is shared by all eight sub-pages, so the two-column
+   variant is opt-in via the modifier and never touches the others. */
+.page-hero--portrait {
+  grid-template-columns: minmax(0, 1fr) 340px;
+  column-gap: 72px;
+  max-width: 1200px;
+  align-items: center;
+}
+.page-hero--portrait > .page-hero-eyebrow { grid-column: 1; grid-row: 1; }
+.page-hero--portrait > .page-hero-title   { grid-column: 1; grid-row: 2; }
+.page-hero--portrait > .page-hero-sub     { grid-column: 1; grid-row: 3; }
+
+.profile-portrait {
+  grid-column: 2;
+  grid-row: 1 / 4;
+  margin: 0;
+}
+/* The frame sits on this inner wrapper, not the figure, so it hugs the
+   image instead of stretching down past the credit line. */
+.profile-portrait-frame {
+  position: relative;
+  display: block;
+}
+.profile-portrait-frame img {
+  display: block;
+  width: 100%;
+  filter: grayscale(15%) contrast(1.05) brightness(0.95);
+}
+/* Same inset gold rule the home hero photo carries. */
+.profile-portrait-frame::after {
+  content: "";
+  position: absolute;
+  inset: 14px;
+  border: 1px solid var(--border-gold);
+  pointer-events: none;
+}
+
+.photo-credit {
+  margin-top: 12px;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+/* Capped well under the 527px source width — the scan is soft, and
+   rendering it below 1:1 is what keeps it from looking it. */
+.wbc-figure {
+  margin: 32px 0 0;
+  max-width: 380px;
+}
+.wbc-figure img {
+  display: block;
+  width: 100%;
+  filter: grayscale(15%) contrast(1.05) brightness(0.95);
+}
+
 .wbc-badge {
   margin-top: 32px;
   padding: 24px 28px;
@@ -844,6 +902,12 @@ footer {
   .hero-photo-wrap { height: 60vh; max-height: 520px; order: -1; }
 
   .page-hero { padding: 140px 24px 56px; }
+  .page-hero--portrait { grid-template-columns: 1fr; row-gap: 32px; }
+  .page-hero--portrait > .profile-portrait {
+    grid-column: 1;
+    grid-row: 4;
+    max-width: 340px;
+  }
 
   section { padding: 64px 24px; }
 

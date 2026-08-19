@@ -23,18 +23,25 @@ DIST.mkdir(exist_ok=True)
 
 # ─── Inputs ──────────────────────────────────────────────────────────
 CSS = (ROOT / 'styles.css').read_text()
-PHOTO_URI = 'data:image/jpeg;base64,' + base64.b64encode(
-    (ROOT / 'img/alberto.jpg').read_bytes()
-).decode()
+def data_uri(rel, mime):
+    return f'data:{mime};base64,' + base64.b64encode(
+        (ROOT / rel).read_bytes()
+    ).decode()
+
+
+PHOTO_URI = data_uri('img/alberto.jpg', 'image/jpeg')
+
+# Every other image the bundled pages reference, keyed by the src they use.
+# The single-file build has no sibling files, so each one has to be inlined.
+EMBEDDED_IMAGES = {
+    '/img/alberto-retrato.jpg': data_uri('img/alberto-retrato.jpg', 'image/jpeg'),
+    '/img/alberto-cmb.jpg': data_uri('img/alberto-cmb.jpg', 'image/jpeg'),
+}
 
 # Icons go in as data: URIs too — this build has to survive being dropped
 # on a server as a lone index.html, with no sibling files to link to.
-FAVICON_URI = 'data:image/x-icon;base64,' + base64.b64encode(
-    (ROOT / 'favicon.ico').read_bytes()
-).decode()
-APPLE_ICON_URI = 'data:image/png;base64,' + base64.b64encode(
-    (ROOT / 'apple-touch-icon.png').read_bytes()
-).decode()
+FAVICON_URI = data_uri('favicon.ico', 'image/x-icon')
+APPLE_ICON_URI = data_uri('apple-touch-icon.png', 'image/png')
 
 
 def read(path):
@@ -111,6 +118,8 @@ def wrap_with_anchor(html, anchor_id):
     inner = inner.replace('href="/red/"',      'href="#red"')
     inner = inner.replace('href="/recursos/"', 'href="#recursos"')
     inner = inner.replace('href="/perfil/"',   'href="#perfil"')
+    for src, uri in EMBEDDED_IMAGES.items():
+        inner = inner.replace(f'src="{src}"', f'src="{uri}"')
     return f'<div id="{anchor_id}">\n{inner}\n</div>'
 
 

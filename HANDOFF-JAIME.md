@@ -8,7 +8,7 @@
 
 ## Qué cambió
 
-El sitio ya está en línea y funcionando — esto **no** es un lanzamiento nuevo, es una actualización de archivos. Cuatro cambios:
+El sitio ya está en línea y funcionando — esto **no** es un lanzamiento nuevo, es una actualización de archivos. Cinco cambios:
 
 1. **Se eliminó el formulario de contacto.** Nunca llegó a conectarse a un backend, así que a quien lo llenaba le salía un error. WhatsApp queda como el único canal de contacto: está en el menú, en el botón del hero, y en la sección Contacto con el número, la dirección y el horario.
 
@@ -16,7 +16,9 @@ El sitio ya está en línea y funcionando — esto **no** es un lanzamiento nuev
 
 3. **Se actualizó la trayectoria de 38 a 39 años.** Estaba desactualizada en varios lugares del sitio (español e inglés).
 
-4. **Se agregó el ícono del sitio.** Es la letra "A" dorada que ahora aparece en la pestaña del navegador y cuando alguien guarda la página en favoritos o en la pantalla de inicio del celular. Antes salía un ícono genérico en blanco.
+4. **Se agregaron dos fotos en la página Perfil** y un artículo nuevo en Recursos.
+
+5. **Se agregó el ícono del sitio.** Es la letra "A" dorada que ahora aparece en la pestaña del navegador y cuando alguien guarda la página en favoritos o en la pantalla de inicio del celular. Antes salía un ícono genérico en blanco.
 
 ---
 
@@ -26,7 +28,7 @@ Un solo link, se descarga sin necesidad de tener cuenta de GitHub:
 
 **https://github.com/dr-p1n/aglaw/raw/main/dist-multipage.zip**
 
-Descomprímelo y vas a ver una carpeta `dist-multipage` con **18 archivos** dentro (HTML, CSS, una imagen y la configuración). Si prefieres que te lo pase por WhatsApp, dime y te lo envío.
+Descomprímelo y vas a ver una carpeta `dist-multipage` con **20 archivos** dentro (HTML, CSS, imágenes y la configuración). Si prefieres que te lo pase por WhatsApp, dime y te lo envío.
 
 ---
 
@@ -46,7 +48,7 @@ Ojo: abriéndolo así, con doble-click, **el mapa puede no aparecer** — es nor
 2. Navega a la carpeta **`public_html`**.
 3. **Haz backup primero.** Selecciona todo lo que está en `public_html`, click derecho → **Compress** → guarda el `.zip` **fuera** de `public_html`. Así puedes revertir si algo sale mal.
 4. Borra el contenido de `public_html`.
-5. Click **Upload** → sube los **18 archivos** que están *dentro* de `dist-multipage` (sube el **contenido** de la carpeta, no la carpeta misma).
+5. Click **Upload** → sube los **20 archivos** que están *dentro* de `dist-multipage` (sube el **contenido** de la carpeta, no la carpeta misma).
 6. Verifica que la estructura de carpetas se mantenga: `/en/`, `/img/`, `/practica/`, `/red/`, `/recursos/`, `/perfil/` deben quedar como carpetas dentro de `public_html`.
 
 ⚠️ **El archivo `.htaccess` es importante y es fácil que se te pase**, porque en muchos programas los archivos que empiezan con punto están ocultos. En cPanel File Manager: **Settings** (arriba a la derecha) → marca **"Show Hidden Files (dotfiles)"**. Sin ese archivo el mapa sigue sin aparecer.

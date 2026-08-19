@@ -37,6 +37,8 @@ FILES = [
     # Assets
     "styles.css",
     "img/alberto.jpg",
+    "img/alberto-retrato.jpg",
+    "img/alberto-cmb.jpg",
     "favicon.ico",
     "favicon.svg",
     "apple-touch-icon.png",
