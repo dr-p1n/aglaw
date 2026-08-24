@@ -1,0 +1,28 @@
+# ═══════════════════════════════════════════════════════════════════
+#  _headers — Cloudflare Pages response headers
+#
+#  Cloudflare Pages ignores .htaccess entirely, so this file is the
+#  Pages-side twin of the <IfModule mod_headers.c> block in .htaccess.
+#  The two must be kept in sync: whichever host is serving the domain
+#  is the one supplying these headers, and the browser still enforces
+#  this AND the per-page <meta> CSP together, intersecting them.
+#
+#  Not ported from .htaccess, on purpose:
+#    - Gzip/Brotli      Pages compresses automatically.
+#    - Expires/caching  Pages purges its edge cache on every deploy.
+#                       styles.css is unhashed, so a 1-year browser
+#                       cache would strand visitors on stale CSS with
+#                       no way to bust it. Pages' revalidate default
+#                       is the safer behaviour here.
+#    - DirectoryIndex, Options -Indexes, ErrorDocument
+#                       Pages handles all three natively; the 404 is
+#                       served from /404.html.
+# ═══════════════════════════════════════════════════════════════════
+
+/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()
+  Content-Security-Policy: default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; script-src 'self'; frame-src https://www.google.com; connect-src 'self'; form-action 'none'; frame-ancestors 'none'; base-uri 'self';

@@ -15,6 +15,32 @@ Live at **albertoeguerrap.com** (GoDaddy, Apache). Also mirrored on Cloudflare P
 
 Cloudflare Pages auto-deploys on push. **GoDaddy does not** — production serves files uploaded by hand via cPanel File Manager, so a push alone never reaches `albertoeguerrap.com`. Reaching production means regenerating `dist-multipage.zip`, pushing it, and having Jaime re-upload. See `HANDOFF-JAIME.md`.
 
+### Planned: collapse it to one step
+
+The manual upload exists only because the domain points at GoDaddy shared hosting. Pointing it at the Pages project instead makes every push a production deploy, and Jaime never touches files again.
+
+Current DNS:
+
+```
+NS       ns75/ns76.domaincontrol.com   (GoDaddy)
+A apex   198.12.237.228                (GoDaddy shared hosting)
+www      CNAME → apex
+MX       none
+TXT      none
+```
+
+No MX and no TXT: the firm's email is Gmail, not domain email, so nothing but the site itself lives on this domain and a nameserver move cannot break anything else. **Re-check this before cutting over** — the absence of those records is the whole reason this is low-risk.
+
+The route is full nameserver delegation to Cloudflare, not a `www` CNAME, because every canonical, hreflang and sitemap URL in the repo is apex; the CNAME route would force `www` as canonical and mean rewriting all of them.
+
+Repo side is ready — `_headers`, `_redirects` and `404.html` cover everything `.htaccess` was doing that Pages does not do natively. What remains:
+
+1. Attach `albertoeguerrap.com` and `www.albertoeguerrap.com` as custom domains on the `aglaw-preview` Pages project. Can be done before any DNS change.
+2. Jaime changes the two nameservers at GoDaddy. One action, and his last.
+3. Verify headers, the www redirect, the 404, and the Maps embed on the real domain.
+
+Two things to settle first: during propagation some visitors still land on GoDaddy's older copy (have Jaime upload the current zip once beforehand if that matters), and afterwards the GoDaddy hosting plan is dead weight — cancellable, keeping the domain registration, once confirmed nothing else hangs off that account.
+
 ## Site structure
 
 | Page | Spanish URL | English URL | Purpose |
@@ -57,6 +83,9 @@ AG_law/
 ├── sitemap.xml             10 URLs, hreflang-symmetric
 ├── robots.txt              Crawler directives
 ├── .htaccess               Apache config — security headers, live on GoDaddy
+├── _headers                Same headers for Cloudflare Pages, which ignores .htaccess
+├── _redirects              www → apex, for Pages
+├── 404.html                Real 404, served by Pages on unmatched paths
 ├── scripts/
 │   ├── build-single-page.py    Regenerates dist/index.html
 │   ├── build-dist-multipage.py Regenerates dist-multipage/ and the zip
@@ -73,12 +102,12 @@ AG_law/
 
 The CSP lives in **two** places and browsers enforce **both**, intersecting them — a source missing from either one is blocked:
 
-1. `.htaccess` — the `Content-Security-Policy` response header, applied site-wide by Apache.
+1. The response header — from `.htaccess` on Apache/GoDaddy, from `_headers` on Cloudflare Pages. Whichever host is serving the domain supplies it, so **the two files must carry the same policy**; they are byte-identical today and should stay that way.
 2. A `<meta http-equiv="Content-Security-Policy">` in each HTML file.
 
 Consequences worth remembering:
 
-- `frame-src https://www.google.com` must be present in the `.htaccess` header **and** in the two home pages, or the Maps embed renders as an empty bordered box. This exact mismatch shipped once and silently blanked the map in production.
+- `frame-src https://www.google.com` must be present in the response header **and** in the two home pages, or the Maps embed renders as an empty bordered box. This exact mismatch shipped once and silently blanked the map in production.
 - `script-src` deliberately omits `'unsafe-inline'`. The only `<script>` tags left in the site are `type="application/ld+json"` data blocks, which are never evaluated and so are unaffected. Adding real inline JavaScript means loosening this.
 - `style-src` keeps `'unsafe-inline'` — several elements still use `style=` attributes.
 - `form-action 'none'` — there are no forms.

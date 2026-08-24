@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--
+  404 — served by Cloudflare Pages for any unmatched path.
+  Replaces `ErrorDocument 404 /index.html` from .htaccess, which
+  answered every bad URL with the homepage under a 200 — a soft 404
+  that search engines treat as a duplicate of the home page.
+  Bilingual, because a bad URL can arrive from either language tree.
+-->
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+
+<title>Página no encontrada · Alberto Guerra</title>
+<meta name="robots" content="noindex, follow">
+
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; script-src 'self'; connect-src 'self'; form-action 'none'; base-uri 'self';">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Outfit:wght@200;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#0A0A08">
+</head>
+<body>
+
+<a href="#main" class="skip-link">Saltar al contenido</a>
+
+<nav aria-label="Navegación principal">
+  <a href="/" class="nav-logo">Alberto Guerra</a>
+  <ul class="nav-links" role="list">
+    <li><a href="/practica/">Práctica</a></li>
+    <li><a href="/red/">Red</a></li>
+    <li><a href="/recursos/">Recursos</a></li>
+    <li><a href="/perfil/">Perfil</a></li>
+    <li class="nav-cta-wrap">
+      <a href="https://wa.me/50766129095?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20un%20asunto%20legal."
+         class="nav-cta" target="_blank" rel="noopener">WhatsApp</a>
+    </li>
+    <li class="nav-lang" aria-label="Idioma">
+      <a href="/">ES</a>
+      <span class="nav-lang-sep" aria-hidden="true">/</span>
+      <a href="/en/">EN</a>
+    </li>
+  </ul>
+</nav>
+
+<main id="main">
+
+<section class="page-hero" aria-label="Página no encontrada">
+  <p class="page-hero-eyebrow">Error 404</p>
+  <h2 class="page-hero-title">Esta página<br>no <em>existe</em>.</h2>
+  <p class="page-hero-sub">
+    La dirección que buscaba fue movida o nunca estuvo aquí. Desde el menú de arriba llega a cualquier sección del sitio.
+  </p>
+  <p class="page-hero-sub" lang="en">
+    The address you were looking for was moved, or never existed. The menu above reaches every section of the site.
+  </p>
+
+  <div class="hero-cta-group" style="margin-top:36px;">
+    <a href="/" class="btn-primary">Volver al inicio &rarr;</a>
+    <a href="/en/" class="btn-secondary" lang="en">Back to home &rarr;</a>
+  </div>
+</section>
+
+</main>
+
+<footer role="contentinfo">
+  <div class="footer-name">Alberto Guerra — Alberto E. Guerra P.</div>
+  <div class="footer-copy">&copy; 2026 · Ciudad de Panamá, República de Panamá</div>
+  <div class="footer-right">
+    APEDE &nbsp;·&nbsp; Cámara de Comercio de Panamá<br>
+    Consejo Mundial de Boxeo — Vicepresidencia
+  </div>
+</footer>
+
+</body>
+</html>

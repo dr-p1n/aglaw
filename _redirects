@@ -1,0 +1,19 @@
+# ═══════════════════════════════════════════════════════════════════
+#  _redirects — Cloudflare Pages redirect rules
+#
+#  Replaces the two RewriteRules in .htaccess. http → https is not
+#  listed because Pages upgrades it on its own.
+#
+#  Every canonical, hreflang and sitemap URL in this repo is apex, so
+#  apex is the canonical host and www redirects into it — not the
+#  other way round.
+#
+#  Both albertoeguerrap.com and www.albertoeguerrap.com have to be
+#  attached as custom domains on the Pages project for this to fire;
+#  a hostname the project does not serve never reaches these rules.
+#  If the full-URL form below does not take effect once the domains
+#  are attached, do it with a Redirect Rule in the dashboard instead
+#  and delete this file — same result, different layer.
+# ═══════════════════════════════════════════════════════════════════
+
+https://www.albertoeguerrap.com/*  https://albertoeguerrap.com/:splat  301
